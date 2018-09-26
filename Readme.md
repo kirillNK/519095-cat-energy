@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Кирилл Пархоменко](https://up.htmlacademy.ru/adaptive/15/user/519095).
-* Наставник: `Неизвестно`.
+* Наставник: [Дмитрий Батманов](https://htmlacademy.ru/profile/id10964).
 
 ---
 
