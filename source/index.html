@@ -6,14 +6,12 @@
   </head>
   <body>
     <header class='main-header'>
-      <a href="#" class="main-header__small-logo">
-        <img src="#" alt="Cat Energy logo" class="main-header__small-logo-img"> <!-- NOTE: ? -->
-      </a>
-      <a href="#" class="main-header__logo-title">
-        <img src="#" alt="Cat Energy" class="main-header__logo-img"> <!-- NOTE: ? -->
+      <img src="#" alt="Cat Energy logo" class="main-header__img"> <!-- NOTE: ? -->
+      <a href="#" class="logo">
+        <img src="#" alt="Cat Energy" class="logo__img"> <!-- NOTE: ? -->
       </a>
       <button class="main-header__btn" type="button" name="show-menu">Открыть меню</button>
-      <nav class="main-header__main-menu">
+      <nav class="main-menu main-header__main-menu">
         <ul class="main-menu__list">
           <li class="main-menu__item">
             <a href="#" class="main-menu__link">Главная</a> <!-- NOTE: class - ? -->
@@ -35,20 +33,20 @@
           <p class="promo__slogan">Знялся собой? Займись котом!</p>
         </div>
         <img class="promo__product-img" src="#" alt="Cat Energy Pro 'Курица'">
-        <a href="form.html" class="promo__btn promo__btn_action btn">
+        <a href="form.html" class="promo__btn promo__btn--action btn">
           Подобрать программу
         </a>
       </section>
       <section class="features">
         <article class="features__item">
-          <h2 class="features__title" Похудение</h2> <!-- NOTE: :before -->
+          <h2 class="features__title"> Похудение</h2> <!-- NOTE: :before -->
           <p class="features__about-text">
             Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.
           </p>
           <a href="#" class="features__go-link">Каталог Slim</a> <!-- NOTE: :after -->
         </article>
         <article class="features__item">
-          <h2 class="features__title" >Набор массы</h2> <!-- NOTE: :before -->
+          <h2 class="features__title">Набор массы</h2> <!-- NOTE: :before -->
           <p class="features__about-text">
             Заработать авторитет среди дворовых котови даже собак? Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!
           </p>
@@ -58,23 +56,23 @@
       <section class="how-to">
         <h2 class="how-to__title">Как это работает</h2>
         <ul class="how-to__list">
-          <li class="how-to__list-item">
-            <p class="how-to__item-description"> <!-- NOTE: :before -->
+          <li class="how-to__item">
+            <p class="how-to__description"> <!-- NOTE: :before -->
               Функциональное питание содержит только полезные питательные вещества.
             </p>
           </li>
-          <li class="how-to__list-item">
-            <p class="how-to__item-description"> <!-- NOTE: :before -->
+          <li class="how-to__item">
+            <p class="how-to__description"> <!-- NOTE: :before -->
               Выпускается в виде порошка, который нужно лишь залить кипятком и готово.
             </p>
           </li>
-          <li class="how-to__list-item">
-            <p class="how-to__item-description"> <!-- NOTE: :before -->
+          <li class="how-to__item">
+            <p class="how-to__description"> <!-- NOTE: :before -->
               Замените один-два приема обычной еды на наше функциональное питание.
             </p>
           </li>
-          <li class="how-to__list-item">
-            <p class="how-to__item-description"> <!-- NOTE: :before -->
+          <li class="how-to__item">
+            <p class="how-to__description"> <!-- NOTE: :before -->
               Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!
             </p>
           </li>
@@ -96,16 +94,13 @@
           </li>
         </ul>
         <span class="example__total-price">Затраты на питание: </span><span>15 000 руб.</span>
-        <div class="example__slider">
-          <div class="example__slider-wraper">
-            <img class="example__image" src="#" alt="Кот до/после">
+        <div class="slider">
+          <div class="slider__wraper">
+            <img class="slider__image" src="#" alt="Кот до/после">
           </div>
-          <div class="example__slider-control">
-            <button class="example__slider-btn example__slider-btn_before">Было</button>
-            <span>
-              <span></span> <!-- NOTE: name - ? -->
-            </span>
-            <button class="example__slider-btn example__slider-btn_after">Стало</button>
+          <div class="slider__control">
+            <button class="slider__btn slider__btn-before">Было</button>
+            <button class="slider__btn slider__btn-after">Стало</button>
           </div>
         </div>
       </section>
@@ -122,17 +117,16 @@
       </section>
     </main>
     <footer class="main-footer">
-      <a href="#" class="main-header__logo">
-        <img class="main-header__logo-img" src="#" alt="Cat Energy">
+      <a href="#" class="logo">
+        <img src="#" alt="Cat Energy" class="logo__img">
       </a>
-      <ul class="main-footer__social-list">
-        <li class="main-footer__social-item"><a href="#" class="main-footer__social-link">VK</a></li> <!-- NOTE: svg into 'a' tag -->
-        <li class="main-footer__social-item"><a href="#" class="main-footer__social-link">Instagram</a></li> <!-- NOTE: svg into 'a' tag -->
-        <li class="main-footer__social-item"><a href="#" class="main-footer__social-link">Facebook</a></li> <!-- NOTE: svg into 'a' tag -->
+      <ul class="social-list">
+        <li class="social__item"><a href="#" class="social__link">VK</a></li> <!-- NOTE: svg into 'a' tag -->
+        <li class="social__item"><a href="#" class="social__link">Instagram</a></li> <!-- NOTE: svg into 'a' tag -->
+        <li class="social__item"><a href="#" class="social__link">Facebook</a></li> <!-- NOTE: svg into 'a' tag -->
       </ul>
       <div class="main-footer__copyright">
-        <a href="#" class="main-footer__authtor">HTML Academy</a>
-        <a href="#" class="main-footer__authtor-logo"></a> <!-- NOTE: svg into 'a' tag -->
+        <a href="#" class="main-footer__authtor">HTML Academy</a> <!-- NOTE: before img -->
       </div>
     </footer>
   </body>
