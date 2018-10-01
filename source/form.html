@@ -30,7 +30,7 @@
       <form class="selection" action="https://echo.htmlacademy.ru" method="post">
         <h2 class="selection__title">Подбор программы</h2>
         <p class="selection__subtitle">Заполните анкету и мы подберем программу питания для вашего кота</p>
-        <fieldset class="selection__general">
+        <fieldset class="general">
           <div class="input-box">
             <label class="input-box__label" for="cat-name">Имя:*</label>
             <input class="input-box__input-item" type="text" name="cat-name" placeholder="Барсик" required>
@@ -44,7 +44,7 @@
             <input type="number" name="cat-age" placeholder="7" required>
           </div>
         </fieldset>
-        <fieldset class="selection__goal">
+        <fieldset class="goal">
           <div class="input-box">
             <label class="input-box__label" for="lost-weight">Похудение</label>
             <input class="input-box__input-item" type="radio" name="goal" id="lost-weight" value="lost-weight" checked>
@@ -58,7 +58,7 @@
             <input class="input-box__input-item" type="radio" name="goal" id="unknown-goal" value="unknown-goal">
           </div>
         </fieldset>
-        <fieldset class="selection__contacts">
+        <fieldset class="contacts">
           <h3 class="contacts__title">Контактные данные (владельца кота)</h3>
           <div class="input-box">
             <label class="input-box__label" for="e-mail">E-Mail:*</label>
@@ -69,12 +69,12 @@
             <input class="input-box__input-item" type="tel" name="client-number" id="number" placeholder="8 (960) 900-60-90">
             </div>
         </fieldset>
-        <fieldset class="selection__comment">
+        <fieldset class="comment">
           <h3 class="comment__title">Комментарий</h3>
-          <textarea name="comment" rows="8" cols="40" placeholder="Расскажите обо всех повадках кота"></textarea> <!-- NOTE: disable resize -->
+          <textarea class="comment__textarea" name="comment" rows="8" cols="40" placeholder="Расскажите обо всех повадках кота"></textarea> <!-- NOTE: disable resize -->
         </fieldset>
-        <fieldset class="selection__additional">
-            <h3 class="additional_title">Дополнительно</h3>
+        <fieldset class="additional">
+            <h3 class="additional__title">Дополнительно</h3>
             <div class="input-box">
               <label class="input-box__label" for="additional-sweetener">Сахарозаменитель</label>
               <input class="input-box__input-item" type="checkbox" name="additional-item" id="additional-sweetener" value="sweetener" checked>
