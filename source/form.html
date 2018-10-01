@@ -31,42 +31,42 @@
         <h2 class="selection__title">Подбор программы</h2>
         <p class="selection__subtitle">Заполните анкету и мы подберем программу питания для вашего кота</p>
         <fieldset class="selection__general">
-          <div class="field__row">
-            <label for="cat-name">Имя:*</label>
-            <input type="text" name="cat-name" placeholder="Барсик" required>
+          <div class="input-box">
+            <label class="input-box__label" for="cat-name">Имя:*</label>
+            <input class="input-box__input-item" type="text" name="cat-name" placeholder="Барсик" required>
           </div>
-          <div class="field__row">
-            <label for="cat-weight">Вес (кг):*</label>
-            <input type="number" name="cat-weight" placeholder="7" required>
+          <div class="input-box">
+            <label class="input-box__label" for="cat-weight">Вес (кг):*</label>
+            <input class="input-box__input-item" type="number" name="cat-weight" placeholder="7" required>
           </div>
-          <div class="field__row">
+          <div class="input-box">
             <label for="cat-age">Возраст (лет):*</label>
             <input type="number" name="cat-age" placeholder="7" required>
           </div>
         </fieldset>
         <fieldset class="selection__goal">
-          <div class="field__row">
-            <label for="lost-weight">Похудение</label>
-            <input type="radio" name="goal" id="lost-weight" value="lost-weight" checked>
+          <div class="input-box">
+            <label class="input-box__label" for="lost-weight">Похудение</label>
+            <input class="input-box__input-item" type="radio" name="goal" id="lost-weight" value="lost-weight" checked>
           </div>
-          <div class="field__row">
-            <label for="get-weight">Набор массы</label>
-            <input type="radio" name="goal" id="get-weight" value="get-weight">
+          <div class="input-box">
+            <label class="input-box__label" for="get-weight">Набор массы</label>
+            <input class="input-box__input-item" type="radio" name="goal" id="get-weight" value="get-weight">
           </div>
-          <div class="field__row">
-            <label for="unknown-goal">Не знаю (Нужен ваш совет)</label>
-            <input type="radio" name="goal" id="unknown-goal" value="unknown-goal">
+          <div class="input-box">
+            <label class="input-box__label" for="unknown-goal">Не знаю (Нужен ваш совет)</label>
+            <input class="input-box__input-item" type="radio" name="goal" id="unknown-goal" value="unknown-goal">
           </div>
         </fieldset>
         <fieldset class="selection__contacts">
           <h3 class="contacts__title">Контактные данные (владельца кота)</h3>
-          <div class="field__row">
-            <label for="e-mail">E-Mail:*</label>
-            <input type="email" name="client-email" id="e-mail" placeholder="kuklachev@gmail.com">
+          <div class="input-box">
+            <label class="input-box__label" for="e-mail">E-Mail:*</label>
+            <input class="input-box__input-item" type="email" name="client-email" id="e-mail" placeholder="kuklachev@gmail.com">
           </div>
-          <div class="field__row">
-            <label for="number">Телефон:*</label>
-            <input type="tel" name="client-number" id="number" placeholder="8 (960) 900-60-90">
+          <div class="input-box">
+            <label class="input-box__label" for="number">Телефон:*</label>
+            <input class="input-box__input-item" type="tel" name="client-number" id="number" placeholder="8 (960) 900-60-90">
             </div>
         </fieldset>
         <fieldset class="selection__comment">
@@ -75,21 +75,21 @@
         </fieldset>
         <fieldset class="selection__additional">
             <h3 class="additional_title">Дополнительно</h3>
-            <div class="field__row">
-              <label for="additional-sweetener">Сахарозаменитель</label>
-              <input type="checkbox" name="additional-item" id="additional-sweetener" value="sweetener" checked>
+            <div class="input-box">
+              <label class="input-box__label" for="additional-sweetener">Сахарозаменитель</label>
+              <input class="input-box__input-item" type="checkbox" name="additional-item" id="additional-sweetener" value="sweetener" checked>
             </div>
-            <div class="field__row">
-              <label for="additional-water">Питьевая вода</label>
-              <input type="checkbox" name="additional-item" id="additional-water" value="water">
+            <div class="input-box">
+              <label class="input-box__label" for="additional-water">Питьевая вода</label>
+              <input class="input-box__input-item" type="checkbox" name="additional-item" id="additional-water" value="water">
             </div>
-            <div class="field__row">
-              <label for="additional-milk">Молоко</label>
-              <input type="checkbox" name="additional-item" id="additional-milk" value="milk">
+            <div class="input-box">
+              <label class="input-box__label" for="additional-milk">Молоко</label>
+              <input class="input-box__input-item" type="checkbox" name="additional-item" id="additional-milk" value="milk">
             </div>
-            <div class="field__row">
-              <label for="additional-vitamins">Витамины</label>
-              <input type="checkbox" name="additional-item" id="additional-vitamins" value="vitamins">
+            <div class="input-box">
+              <label class="input-box__label" for="additional-vitamins">Витамины</label>
+              <input class="input-box__input-item" type="checkbox" name="additional-item" id="additional-vitamins" value="vitamins">
           </div>
         </fieldset>
         <button class="selection__btn selection__btn--bg-green btn" type="submit" name="button">Отправить заявку</button>
