@@ -1,3 +1,34 @@
-body {
-  background: gray;
-}
+// import header style
+@import "header/main-header.scss";
+@import "header/main-menu.scss";
+
+// import all page elems style
+@import "all-page/adress.scss";
+@import "all-page/map.scss";
+
+
+// import index page style
+@import "index/main-content.scss";
+@import "index/promo.scss";
+@import "index/features.scss";
+@import "index/how-to.scss";
+@import "index/example.scss";
+@import "index/slider.scss";
+
+// import catalog page style
+@import "catalog/main-content.scss";
+@import "catalog/catalog.scss";
+@import "catalog/product-tile.scss";
+@import "catalog/extra.scss";
+@import "catalog/extra-tile.scss";
+
+// import form page style
+@import "form/main-content.scss";
+@import "form/selection.scss";
+@import "form/input-box.scss";
+
+
+
+// import footer style
+@import "footer/main-footer.scss";
+@import "footer/social-list.scss";
