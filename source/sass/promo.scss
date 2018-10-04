@@ -1,3 +1,22 @@
 .promo {
-  //
+  padding: 24px 20px;
+  margin-bottom: 22px;
+  background: url("../img/index-background-mobile@1x.jpg") no-repeat;
+  background-color: $main-green;
+  background-size: contain;
+}
+
+.promo__title {
+  font: 400 36px/36px $font-family-oswald;
+  color: #ffffff;
+}
+
+.promo__slogan {
+  font: 400 14px/14px $font-family-oswald;
+  color: #ffffff;
+}
+
+.promo__btn {
+  font: 400 14px/18px $font-family-oswald;
+  color: #ffffff;
 }

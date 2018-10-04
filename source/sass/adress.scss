@@ -1,3 +1,14 @@
 .adress {
-  //
+  padding: 24px 20px;
+  margin-bottom: 22px;
+}
+
+.adress__invitation {
+  font: 400 16px/20px $font-family-oswald;
+  color: #000000;
+}
+
+.adress__in-city {
+  font: 400 14px/20px $font-family;
+  color: #000000;
 }
