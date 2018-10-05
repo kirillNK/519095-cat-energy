@@ -11,3 +11,18 @@
   height: 1px;
   margin: -1px;
 }
+
+@mixin title1($font-family, $text-color) {
+  font: 400 16px/18px $font-family;
+  color: $text-color;
+
+  @media (max-width: $tablet-width) {
+    font: 400 16px/18px $font-family;
+    color: $text-color;
+  }
+
+  @media (max-width: $desktop-width) {
+    font: 400 16px/18px $font-family;
+    color: $text-color;
+  }
+}
