@@ -16,14 +16,23 @@
 .example__advantages-result {
   font: 400 24px/24px $font-family-oswald;
   color: #000000;
+  text-transform: uppercase;
 }
 
 .example__advantages-description {
   font: 400 12px/12px $font-family;
   color: #000000;
+  text-transform: lowercase;
+}
+
+.example__total-price {
+  font: 400 14px/20px $font-family;
+  color: #000000;
+  text-transform: uppercase;
 }
 
 .slider__btn {
   font: 400 16px/20px $font-family-oswald;
   color: #000000;
+  text-transform: uppercase;
 }

@@ -1,3 +1,9 @@
 .main-menu {
   //
 }
+
+.main-menu__link {
+  font: 500 20px/20px $font-family-oswald;
+  color: #000000;
+  text-transform: uppercase;
+}
