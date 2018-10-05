@@ -1,3 +1,40 @@
 .extra {
   //
 }
+
+.extra__title {
+  font: 400 24px/24px $font-family-oswald;
+  color: #000000;
+}
+
+.extra__subtitle {
+  font: 400 16px/16px $font-family-oswald;
+  color: #000000;
+}
+
+.extra-tile__quantity {
+  font: 400 14px/14px $font-family;
+  color: $gray-text;
+}
+
+.extra-tile__price {
+  font: 400 14px/14px $font-family;
+  color: $gray-text;
+}
+
+.extra-tile__btn {
+  font: 400 16px/20px $font-family-oswald;
+  color: #ffffff;
+}
+
+.extra__bouns {
+  padding: 50px;
+  background: url("../img/gift-photo-mobile@1x.jpg") no-repeat;
+  background-color: $main-green;
+  background-size: contain;
+}
+
+.extra__text {
+  font: 400 16px/20px $font-family;
+  color: #ffffff;
+}
