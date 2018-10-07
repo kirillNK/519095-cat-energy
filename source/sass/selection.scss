@@ -1,0 +1,35 @@
+.selection {
+  //
+}
+
+.selection__title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 60px;
+  font-family: $font-family-oswald;
+  color: #000000;
+}
+
+.selection__subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: $font-family-oswald;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.selection__inner-title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  font-family: $font-family-oswald;
+  color: #000000;
+}
+
+.selection__note {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #444444;
+}

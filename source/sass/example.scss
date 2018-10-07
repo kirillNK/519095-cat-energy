@@ -1,0 +1,44 @@
+.example {
+  padding: 24px 20px;
+  margin-bottom: 22px;
+}
+
+.example__title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 60px;
+  font-family: $font-family-oswald;
+  color: #000000;
+}
+
+.example__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.example__advantages-result {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  font-family: $font-family-oswald;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.example__advantages-description {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #000000;
+  text-transform: lowercase;
+}
+
+.example__total-price {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  text-transform: uppercase;
+}

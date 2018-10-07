@@ -1,0 +1,48 @@
+.extra {
+  //
+}
+
+.extra__title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  font-family: $font-family-oswald;
+  color: #000000;
+}
+
+.extra__subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  font-family: $font-family-oswald;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.extra-tile__quantity {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #444444;
+}
+
+.extra-tile__price {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #444444;
+}
+
+.extra__bouns {
+  padding: 50px;
+  background: url("../img/gift-photo-mobile@1x.jpg") no-repeat;
+  background-color: #67b737;
+  background-size: contain;
+}
+
+.extra__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}

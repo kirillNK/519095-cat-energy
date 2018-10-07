@@ -1,0 +1,25 @@
+@import "variables.scss";// vars & mixin
+@import "scaffolding.scss";
+@import "btn.scss";
+@import "fonts.scss";
+@import "mixins.scss"; // import header style
+@import "main-header.scss";
+@import "main-menu.scss"; // import all page elems style
+@import "adress.scss";
+@import "map.scss";
+@import "main-content.scss";
+@import "logo.scss"; // import index page style
+@import "promo.scss";
+@import "features.scss";
+@import "how-to.scss";
+@import "example.scss";
+@import "slider.scss"; // import catalog page style
+@import "catalog.scss";
+@import "product-tile.scss";
+@import "extra.scss";
+@import "extra-tile.scss"; // import form page style
+@import "selection.scss";
+@import "comment-textarea.scss";
+@import "input-box.scss"; // import footer style
+@import "main-footer.scss";
+@import "social-list.scss";
