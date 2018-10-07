@@ -1,9 +1,12 @@
 .example {
   padding: 24px 20px;
   margin-bottom: 22px;
+  background-color: #f2f2f2;
 }
 
 .example__title {
+  margin: 0;
+  margin-bottom: 16px;
   font-weight: 400;
   font-size: 36px;
   line-height: 60px;
@@ -12,10 +15,19 @@
 }
 
 .example__text {
+  margin: 0;
+  margin-bottom: 26px;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-  color: #000000;
+  color: #444444;
+}
+
+.example__advantages-list {
+  margin: 0;
+  display: flex;
+
+  @include resetList;
 }
 
 .example__advantages-result {

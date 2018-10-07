@@ -1,5 +1,20 @@
 .main-menu {
-  //
+  display: none;
+  //display: flex;
+}
+
+.main-menu__list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+
+  @include resetList;
+}
+
+.main-menu__item {
+  text-align: center;
+  width: 100%;
 }
 
 .main-menu__link {
@@ -9,4 +24,5 @@
   font-family: $font-family-oswald;
   color: #000000;
   text-transform: uppercase;
+  text-decoration: none;
 }

@@ -1,12 +1,19 @@
 .promo {
-  padding: 24px 20px;
   margin-bottom: 22px;
   background: url("../img/index-background-mobile@1x.jpg") no-repeat;
-  background-color: #67b737;
-  background-size: contain;
+  background-size: 320px auto;
+}
+
+.wr2 {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 28px;
 }
 
 .promo__title {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 20px;
   font-weight: 400;
   font-size: 36px;
   line-height: 36px;
@@ -16,10 +23,18 @@
 }
 
 .promo__slogan {
+  margin: 0;
+  margin-bottom: 26px;
   font-weight: 400;
   font-size: 14px;
   line-height: 14px;
   font-family: $font-family-oswald;
   color: #ffffff;
   text-transform: uppercase;
+  text-align: center;
+}
+
+.promo__product-img {
+  margin: 0 auto;
+  margin-bottom: 3px;
 }

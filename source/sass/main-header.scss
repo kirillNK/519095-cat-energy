@@ -1,4 +1,33 @@
 .main-header {
   padding: 11px 20px 16px;
   background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.wr1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-header__img {
+  display: block;
+  width: 33px;
+  height: 38px;
+  background-color: gray;
+  overflow: hidden;
+}
+
+.logo__img {
+  width: 101px;
+  height: 18px;
+  display: block;
+}
+
+.main-header__toggle {
+  width: 24px;
+  height: 18px;
+  font-size: 0;
+  background-image: url("/");
 }
