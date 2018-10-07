@@ -23,14 +23,36 @@
   color: #444444;
 }
 
-.example__advantages-list {
-  margin: 0;
+.example__row-wr {
   display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
 
+.example__advantages-list {
   @include resetList;
+
+  width: 280px;
+  margin: 0;
+  margin-bottom: 36px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.example__advantages-item {
+  position: relative;
+  display: flex;
+  width: 124px;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid #cdcdcd;
+  border-radius: 3px;
 }
 
 .example__advantages-result {
+  margin: 0;
+  margin-top: 18px;
+  margin-bottom: 18px;
   font-weight: 400;
   font-size: 24px;
   line-height: 24px;
@@ -40,14 +62,29 @@
 }
 
 .example__advantages-description {
+  position: absolute;
+  bottom: -16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80px;
+  text-align: center;
   font-weight: 400;
   font-size: 12px;
   line-height: 12px;
-  color: #000000;
   text-transform: lowercase;
+  color: #000000;
+  background-color: #f2f2f2;
+}
+
+.example__price-wr {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .example__total-price {
+  margin: 0 auto;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
