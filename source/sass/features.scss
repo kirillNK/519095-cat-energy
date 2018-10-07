@@ -4,18 +4,26 @@
 }
 
 .features__title {
-  font: 400 24px/37px $font-family-oswald;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 37px;
+  font-family: $font-family-oswald;
   color: #000000;
   text-transform: uppercase;
 }
 
 .features__about-text {
-  font: 400 14px/18px $font-family;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
   color: #000000;
 }
 
 .features__go-link {
-  font: 400 16px/16px $font-family-oswald;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  font-family: $font-family-oswald;
   color: #000000;
   text-transform: uppercase;
 }

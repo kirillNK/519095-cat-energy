@@ -4,35 +4,41 @@
 }
 
 .example__title {
-  font: 400 36px/60px $font-family-oswald;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 60px;
+  font-family: $font-family-oswald;
   color: #000000;
 }
 
 .example__text {
-  font: 400 14px/18px $font-family;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
   color: #000000;
 }
 
 .example__advantages-result {
-  font: 400 24px/24px $font-family-oswald;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  font-family: $font-family-oswald;
   color: #000000;
   text-transform: uppercase;
 }
 
 .example__advantages-description {
-  font: 400 12px/12px $font-family;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
   color: #000000;
   text-transform: lowercase;
 }
 
 .example__total-price {
-  font: 400 14px/20px $font-family;
-  color: #000000;
-  text-transform: uppercase;
-}
-
-.slider__btn {
-  font: 400 16px/20px $font-family-oswald;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
   color: #000000;
   text-transform: uppercase;
 }

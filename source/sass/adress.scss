@@ -4,12 +4,17 @@
 }
 
 .adress__invitation {
-  font: 400 16px/20px $font-family-oswald;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: $font-family-oswald;
   color: #000000;
   text-transform: uppercase;
 }
 
 .adress__in-city {
-  font: 400 14px/20px $font-family;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
   color: #000000;
 }

@@ -3,19 +3,28 @@
 }
 
 .input-box__label {
-  font: 400 16px/18px $font-family-oswald;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: $font-family-oswald;
   color: #000000;
   text-transform: uppercase;
 }
 
 .input-box__input::placeholder {
-  font: 400 16px/18px $font-family-oswald;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: $font-family-oswald;
   color: #444444;
   text-transform: uppercase;
 }
 
 .input-box__input {
-  font: 400 16px/18px $font-family-oswald;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: $font-family-oswald;
   color: #444444;
   text-transform: uppercase;
 }

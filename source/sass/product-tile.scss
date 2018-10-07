@@ -3,18 +3,17 @@
 }
 
 .product-tile__title {
-  font: 400 16px/20px $font-family-oswald;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: $font-family-oswald;
   color: #000000;
   text-transform: uppercase;
 }
 
 .product-tile__spec {
-  font: 400 12px/16px $font-family;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
   color: #444444;
-}
-
-.product-tile__btn {
-  font: 400 16px/20px $font-family-oswald;
-  color: #000000;
-  text-transform: uppercase;
 }
