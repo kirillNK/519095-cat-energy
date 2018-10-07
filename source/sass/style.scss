@@ -1,5 +1,6 @@
-// vars & mixin
-@import "variables.scss";
+@import "scaffolding.scss";
+@import "fonts.scss";
+@import "variables.scss";// vars & mixin
 @import "mixins.scss"; // import header style
 @import "main-header.scss";
 @import "main-menu.scss"; // import all page elems style
