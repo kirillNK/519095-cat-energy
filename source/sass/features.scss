@@ -1,7 +1,7 @@
 .features {
   padding-left: 20px;
   padding-right: 20px;
-  margin-bottom: 22px;
+  //margin-bottom: 22px;
 }
 
 .features__item {
@@ -34,7 +34,8 @@
     display: block;
     width: 50px;
     height: 50px;
-    background-color: gray;
+    background-color: #68b738;
+    border-radius: 50%;
   }
 }
 

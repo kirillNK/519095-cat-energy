@@ -1,10 +1,14 @@
 .promo {
   margin-bottom: 22px;
   background: url("../img/index-background-mobile@1x.jpg") no-repeat;
-  background-size: 320px auto;
+  background-size: contain;
+  // BUG: 498px bg больше не тянется
 }
 
 .promo__wr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 28px;

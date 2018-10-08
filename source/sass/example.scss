@@ -1,6 +1,6 @@
 .example {
   padding: 24px 20px;
-  margin-bottom: 22px;
+  //margin-bottom: 22px;
   background-color: #f2f2f2;
 }
 
@@ -25,6 +25,7 @@
 
 .example__row-wr {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 40px;
 }

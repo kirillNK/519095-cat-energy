@@ -1,14 +1,16 @@
 .main-header {
-  padding: 11px 20px 16px;
+  padding-top: 11px;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
 }
 
 .main-header__wr {
+  margin-left: 20px;
+  margin-right: 20px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 
 .main-header__img {
@@ -26,8 +28,11 @@
 }
 
 .main-header__toggle {
-  width: 24px;
+  width: 25px;
   height: 18px;
   font-size: 0;
-  background-image: url("/");
+  background-image: url("/img/icon-mobile-menu.svg");
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
 }

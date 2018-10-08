@@ -1,9 +1,13 @@
 .adress {
   padding: 24px 20px;
-  margin-bottom: 22px;
+  //margin-bottom: 22px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .adress__invitation {
+  width: 140px;
+  margin: 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -13,6 +17,8 @@
 }
 
 .adress__in-city {
+  width: 140px;
+  margin: 0;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;

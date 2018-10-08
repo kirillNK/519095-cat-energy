@@ -15,19 +15,23 @@
 
 .how-to__list {
   margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 
   @include resetList;
 }
 
 .how-to__item {
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 28px;
   margin-left: 80px;
 
   &::before {
     content: "";
     position: absolute;
     left: -80px;
+    top: -3px;
     width: 60px;
     height: 60px;
     background-color: #68b738;
@@ -35,6 +39,8 @@
 }
 
 .how-to__description {
+  margin: 0;
+  width: 200px;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;

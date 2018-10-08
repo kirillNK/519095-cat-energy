@@ -1,11 +1,30 @@
 .main-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 24px 20px;
+  background-color: #f2f2f2;
 }
 
 .main-footer__authtor {
+  display: flex;
+  align-items: center;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   font-family: $font-family-oswald;
   color: #000000;
+  text-decoration: none;
+}
+
+.main-footer__text {
+  margin: 0 134px 0 0;
+}
+
+.main-footer__logo {
+  display: block;
+}
+
+.main-footer__logo path {
+  fill: #666666;
 }
