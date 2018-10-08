@@ -1,8 +1,25 @@
 .product-tile {
-  //
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.product-tile__img-wraper {
+  //margin-left: 28px;
+  margin-right: 35px;
+  height: 100px;
+}
+
+.product-tile__wraper {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
 }
 
 .product-tile__title {
+  width: 88px;
+  margin: 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -12,8 +29,13 @@
 }
 
 .product-tile__spec {
+  width: 138px;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
   color: #444444;
+}
+
+.product-tile__table-row td:last-child {
+  text-align: right;
 }

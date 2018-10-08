@@ -4,15 +4,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" user-scalable="yes">
     <title>HTML Academy: Кэт энерджи</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header class='main-header'>
-      <img src="http://placehold.it/150x100" alt="Cat Energy logo" class="main-header__img">
-      <a href="#" class="logo">
-        <img src="http://placehold.it/150x100" alt="Cat Energy" class="logo__img">
-      </a>
-      <button class="main-header__toggle" type="button" name="show-menu">Открыть меню</button>
+      <div class="main-header__wr">
+        <img src="/" alt="Cat Energy logo" class="main-header__img">
+        <a href="#" class="logo">
+          <img src="http://placehold.it/150x100" alt="Cat Energy" class="logo__img">
+        </a>
+        <button class="main-header__toggle" type="button" name="show-menu">Открыть меню</button>
+      </div>
       <nav class="main-menu main-header__main-menu">
         <ul class="main-menu__list">
           <li class="main-menu__item">
@@ -34,182 +37,195 @@
         <ul class="catalog__list">
           <li class="catalog__item">
             <div class="product-tile">
-              <div class="product-tile__img-wraper">
-                <img class="product-tile__product-img" src="http://placehold.it/150x100" alt="Cat Energy Pro 500 г.">
-              </div>
-              <div class="product-tile__description">
-                <h3 class="product-tile__title">Cat Energy Pro 500 г</h3>
-                <table class="product-tile__spec">
-                  <tr>
-                    <td>Объём</td>
-                    <td>500 г</td>
-                  </tr>
-                  <tr>
-                    <td>Вкус</td>
-                    <td>Рис</td>
-                  </tr>
-                  <tr>
-                    <td>Цена</td>
-                    <td>500 р.</td>
-                  </tr>
-                </table>
-              </div>
-              <a class="product-tile__btn btn btn--bg-green" href="#">Заказать</a>
-            </div>
-          </li>
-          <li class="catalog__item">
-            <div class="product-tile">
-              <div class="product-tile__img-wraper">
-                <img class="product-tile__product-img" src="http://placehold.it/150x100" alt="Cat Energy Pro 500 г.">
-              </div>
-              <div class="product-tile__description">
-                <h3 class="product-tile__title">Cat Energy Pro 500 г</h3>
-                <table class="product-tile__spec">
-                  <tr>
-                    <td>Объём</td>
-                    <td>500 г</td>
-                  </tr>
-                  <tr>
-                    <td>Вкус</td>
-                    <td>Рис</td>
-                  </tr>
-                  <tr>
-                    <td>Цена</td>
-                    <td>500 р.</td>
-                  </tr>
-                </table>
+              <div class="product-tile__wraper">
+                <div class="product-tile__img-wraper">
+                  <img class="product-tile__product-img" width="100" height="100" src="http://placehold.it/150x100" alt="Cat Energy Pro 500 г.">
+                </div>
+                <div class="product-tile__description">
+                  <h3 class="product-tile__title">Cat Energy Pro 500 г</h3>
+                  <table class="product-tile__spec">
+                    <tr class="product-tile__table-row">
+                      <td>Объём</td>
+                      <td>500 г</td>
+                    </tr>
+                    <tr class="product-tile__table-row">
+                      <td>Вкус</td>
+                      <td>Рис</td>
+                    </tr>
+                    <tr class="product-tile__table-row">
+                      <td>Цена</td>
+                      <td>500 Р.</td>
+                    </tr>
+                  </table>
+                </div>
               </div>
               <a class="product-tile__btn btn btn--bg-green" href="#">Заказать</a>
             </div>
           </li>
           <li class="catalog__item">
             <div class="product-tile">
-              <div class="product-tile__img-wraper">
-                <img class="product-tile__product-img" src="http://placehold.it/150x100" alt="Cat Energy Pro 500 г.">
-              </div>
-              <div class="product-tile__description">
-                <h3 class="product-tile__title">Cat Energy Pro 500 г</h3>
-                <table class="product-tile__spec">
-                  <tr>
-                    <td>Объём</td>
-                    <td>500 г</td>
-                  </tr>
-                  <tr>
-                    <td>Вкус</td>
-                    <td>Рис</td>
-                  </tr>
-                  <tr>
-                    <td>Цена</td>
-                    <td>500 р.</td>
-                  </tr>
-                </table>
-              </div>
-              <a class="product-tile__btn btn btn--bg-green" href="#">Заказать</a>
-            </div>
-          </li>
-          <li class="catalog__item">
-            <div class="product-tile">
-              <div class="product-tile__img-wraper">
-                <img class="product-tile__product-img" src="http://placehold.it/150x100" alt="Cat Energy Pro 500 г.">
-              </div>
-              <div class="product-tile__description">
-                <h3 class="product-tile__title">Cat Energy Pro 500 г</h3>
-                <table class="product-tile__spec">
-                  <tr>
-                    <td>Объём</td>
-                    <td>500 г</td>
-                  </tr>
-                  <tr>
-                    <td>Вкус</td>
-                    <td>Рис</td>
-                  </tr>
-                  <tr>
-                    <td>Цена</td>
-                    <td>500 р.</td>
-                  </tr>
-                </table>
+              <div class="product-tile__wraper">
+                <div class="product-tile__img-wraper">
+                  <img class="product-tile__product-img" width="100" height="100" src="http://placehold.it/150x100" alt="Cat Energy Pro 500 г.">
+                </div>
+                <div class="product-tile__description">
+                  <h3 class="product-tile__title">Cat Energy Pro 500 г</h3>
+                  <table class="product-tile__spec">
+                    <tr class="product-tile__table-row">
+                      <td>Объём</td>
+                      <td>500 г</td>
+                    </tr>
+                    <tr class="product-tile__table-row">
+                      <td>Вкус</td>
+                      <td>Рис</td>
+                    </tr>
+                    <tr class="product-tile__table-row">
+                      <td>Цена</td>
+                      <td>500 Р.</td>
+                    </tr>
+                  </table>
+                </div>
               </div>
               <a class="product-tile__btn btn btn--bg-green" href="#">Заказать</a>
             </div>
           </li>
           <li class="catalog__item">
             <div class="product-tile">
-              <div class="product-tile__img-wraper">
-                <img class="product-tile__product-img" src="http://placehold.it/150x100" alt="Cat Energy Pro 500 г.">
-              </div>
-              <div class="product-tile__description">
-                <h3 class="product-tile__title">Cat Energy Pro 500 г</h3>
-                <table class="product-tile__spec">
-                  <tr>
-                    <td>Объём</td>
-                    <td>500 г</td>
-                  </tr>
-                  <tr>
-                    <td>Вкус</td>
-                    <td>Рис</td>
-                  </tr>
-                  <tr>
-                    <td>Цена</td>
-                    <td>500 р.</td>
-                  </tr>
-                </table>
-              </div>
-              <a class="product-tile__btn btn btn--bg-green" href="#">Заказать</a>
-            </div>
-          </li>
-          <li class="catalog__item">
-            <div class="product-tile">
-              <div class="product-tile__img-wraper">
-                <img class="product-tile__product-img" src="http://placehold.it/150x100" alt="Cat Energy Pro 500 г.">
-              </div>
-              <div class="product-tile__description">
-                <h3 class="product-tile__title">Cat Energy Pro 500 г</h3>
-                <table class="product-tile__spec">
-                  <tr>
-                    <td>Объём</td>
-                    <td>500 г</td>
-                  </tr>
-                  <tr>
-                    <td>Вкус</td>
-                    <td>Рис</td>
-                  </tr>
-                  <tr>
-                    <td>Цена</td>
-                    <td>500 р.</td>
-                  </tr>
-                </table>
+              <div class="product-tile__wraper">
+                <div class="product-tile__img-wraper">
+                  <img class="product-tile__product-img" width="100" height="100" src="http://placehold.it/150x100" alt="Cat Energy Pro 500 г.">
+                </div>
+                <div class="product-tile__description">
+                  <h3 class="product-tile__title">Cat Energy Pro 500 г</h3>
+                  <table class="product-tile__spec">
+                    <tr class="product-tile__table-row">
+                      <td>Объём</td>
+                      <td>500 г</td>
+                    </tr>
+                    <tr class="product-tile__table-row">
+                      <td>Вкус</td>
+                      <td>Рис</td>
+                    </tr>
+                    <tr class="product-tile__table-row">
+                      <td>Цена</td>
+                      <td>500 Р.</td>
+                    </tr>
+                  </table>
+                </div>
               </div>
               <a class="product-tile__btn btn btn--bg-green" href="#">Заказать</a>
             </div>
           </li>
           <li class="catalog__item">
             <div class="product-tile">
-              <div class="product-tile__img-wraper">
-                <img class="product-tile__product-img" src="http://placehold.it/150x100" alt="Cat Energy Pro 500 г.">
+              <div class="product-tile__wraper">
+                <div class="product-tile__img-wraper">
+                  <img class="product-tile__product-img" width="100" height="100" src="http://placehold.it/150x100" alt="Cat Energy Pro 500 г.">
+                </div>
+                <div class="product-tile__description">
+                  <h3 class="product-tile__title">Cat Energy Pro 500 г</h3>
+                  <table class="product-tile__spec">
+                    <tr class="product-tile__table-row">
+                      <td>Объём</td>
+                      <td>500 г</td>
+                    </tr>
+                    <tr class="product-tile__table-row">
+                      <td>Вкус</td>
+                      <td>Рис</td>
+                    </tr>
+                    <tr class="product-tile__table-row">
+                      <td>Цена</td>
+                      <td>500 Р.</td>
+                    </tr>
+                  </table>
+                </div>
               </div>
-              <div class="product-tile__description">
-                <h3 class="product-tile__title">Cat Energy Pro 500 г</h3>
-                <table class="product-tile__spec">
-                  <tr>
-                    <td>Объём</td>
-                    <td>500 г</td>
-                  </tr>
-                  <tr>
-                    <td>Вкус</td>
-                    <td>Рис</td>
-                  </tr>
-                  <tr>
-                    <td>Цена</td>
-                    <td>500 р.</td>
-                  </tr>
-                </table>
+              <a class="product-tile__btn btn btn--bg-green" href="#">Заказать</a>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <div class="product-tile">
+              <div class="product-tile__wraper">
+                <div class="product-tile__img-wraper">
+                  <img class="product-tile__product-img" width="100" height="100" src="http://placehold.it/150x100" alt="Cat Energy Pro 500 г.">
+                </div>
+                <div class="product-tile__description">
+                  <h3 class="product-tile__title">Cat Energy Pro 500 г</h3>
+                  <table class="product-tile__spec">
+                    <tr class="product-tile__table-row">
+                      <td>Объём</td>
+                      <td>500 г</td>
+                    </tr>
+                    <tr class="product-tile__table-row">
+                      <td>Вкус</td>
+                      <td>Рис</td>
+                    </tr>
+                    <tr class="product-tile__table-row">
+                      <td>Цена</td>
+                      <td>500 Р.</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <a class="product-tile__btn btn btn--bg-green" href="#">Заказать</a>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <div class="product-tile">
+              <div class="product-tile__wraper">
+                <div class="product-tile__img-wraper">
+                  <img class="product-tile__product-img" width="100" height="100" src="http://placehold.it/150x100" alt="Cat Energy Pro 500 г.">
+                </div>
+                <div class="product-tile__description">
+                  <h3 class="product-tile__title">Cat Energy Pro 500 г</h3>
+                  <table class="product-tile__spec">
+                    <tr class="product-tile__table-row">
+                      <td>Объём</td>
+                      <td>500 г</td>
+                    </tr>
+                    <tr class="product-tile__table-row">
+                      <td>Вкус</td>
+                      <td>Рис</td>
+                    </tr>
+                    <tr class="product-tile__table-row">
+                      <td>Цена</td>
+                      <td>500 Р.</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <a class="product-tile__btn btn btn--bg-green" href="#">Заказать</a>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <div class="product-tile">
+              <div class="product-tile__wraper">
+                <div class="product-tile__img-wraper">
+                  <img class="product-tile__product-img" width="100" height="100" src="http://placehold.it/150x100" alt="Cat Energy Pro 500 г.">
+                </div>
+                <div class="product-tile__description">
+                  <h3 class="product-tile__title">Cat Energy Pro 500 г</h3>
+                  <table class="product-tile__spec">
+                    <tr class="product-tile__table-row">
+                      <td>Объём</td>
+                      <td>500 г</td>
+                    </tr>
+                    <tr class="product-tile__table-row">
+                      <td>Вкус</td>
+                      <td>Рис</td>
+                    </tr>
+                    <tr class="product-tile__table-row">
+                      <td>Цена</td>
+                      <td>500 Р.</td>
+                    </tr>
+                  </table>
+                </div>
               </div>
               <a class="product-tile__btn btn btn--bg-green" href="#">Заказать</a>
             </div>
           </li>
         </ul>
         <div class="catalog__load-more">
-          <span class="catalog__icon"></span> <!-- NOTE: bg icon -->
           <h3 class="catalog__title">Показать ещё 100500 товаров</h3>
           <p class="catalog__text">
             На самом деле вкусов гораздо больше!
@@ -261,7 +277,7 @@
           </p>
         </div>
       </section>
-      <section class="adress">
+      <section class="adress adress--bg-gray">
         <p class="adress__invitation">
           Приглашаем к сотрудничеству дилеров!
         </p>
@@ -270,20 +286,39 @@
         </p>
       </section>
       <section class="map">
-        <img class="map__map-image" src="http://placehold.it/150x100" alt="ул. Большая Конюшенная, д. 19/8, Санкт-Петербург">
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Adc28d96439533f87034982ab4e50d74ba953f33e6be4d9d739fc4baa1afd0b4b&amp;width=100%25&amp;height=364&amp;lang=ru_RU&amp;scroll=true"></script>
+        <!-- BUG: bg image -->
       </section>
     </main>
     <footer class="main-footer">
       <a href="#" class="logo">
-        <img src="http://placehold.it/150x100" alt="Cat Energy" class="logo__img">
+        <img src="img/logo-footer.svg" width="101" height="18" alt="Cat Energy" class="logo__img">
       </a>
       <ul class="social-list">
-        <li class="social__item"><a href="#" class="social__link">VK</a></li> <!-- NOTE: svg into 'a' tag -->
-        <li class="social__item"><a href="#" class="social__link">Instagram</a></li> <!-- NOTE: svg into 'a' tag -->
-        <li class="social__item"><a href="#" class="social__link">Facebook</a></li> <!-- NOTE: svg into 'a' tag -->
+        <li class="social-list__item">
+          <a href="#" class="social-list__link">
+            <p class="social-list__text visually-hidden">VK</p>
+            <svg class="social-list__logo" enable-background="new 0 0 22 12" viewBox="0 0 22 12" width="22" height="12"  xmlns="http://www.w3.org/2000/svg"><path d="m17.6 12c-.3 0-.9-.1-1.5-.5-.5-.3-.9-.7-1.3-1.2-.3-.3-.9-.9-1.1-.9-.2.1-.4.7-.3 1.2 0 .1 0 .6-.3.9s-.8.4-.9.4h-1.4c-.7 0-3.2-.2-5.4-2.3-2.9-2.5-5.2-7.4-5.3-7.6-.1-.4-.2-.8.1-1.1s.8-.4 1-.4h3 .1c.1 0 .4.1.7.3s.4.5.5.6c0 0 .5 1.1 1.1 2 1 1.5 1.4 1.9 1.5 2 .1-.4.2-1.4.1-2.3 0-.4-.1-.8-.2-1-.1-.1-.3-.2-.5-.2l-.6-.5c0-.5.5-.9.9-1.1.5-.2 1.3-.3 2.3-.3h.5c.9 0 1.2.1 1.6.1 1.2.3 1.2 1.3 1.1 2.5v1.2.4c0 .3 0 .8.1 1 .2-.1.6-.5 1.5-1.9.6-.9 1-1.9 1.1-2.1.1-.3.4-.7 1.2-.7h3.1.3c.7 0 1.2.2 1.3.7.2.5.1 1.3-1.7 3.5-.3.3-.5.6-.7.9-.5.4-.9 1-.9 1.1s.5.5.9.9c1.1.9 1.9 1.7 2.2 2.3.4.6.3 1 .2 1.3-.3.7-1.2.7-1.4.8h-2.8zm-3.9-3.7c.7 0 1.2.6 1.8 1.2.4.4.7.8 1.1 1 .5.3 1 .3 1 .3h.1 2.8c.1 0 .3-.1.4-.1 0 0 0-.1-.1-.1-.3-.5-1-1.3-2-2.1-.9-.7-1.3-1.1-1.4-1.7 0-.6.4-1.1 1.2-2.1.2-.2.4-.5.7-.8 1.1-1.4 1.4-2 1.5-2.3-.1 0-.5 0-.5 0h-3.2c-.1 0-.2 0-.2 0 0 .4-.5 1.5-1.1 2.4-1.4 2.1-2 2.4-2.5 2.4-.1 0-.3 0-.4-.1-.7-.4-.7-1.4-.7-2.1 0-.1 0-.2 0-.3 0-.5 0-.9 0-1.3.1-1.3 0-1.3-.3-1.4s-.5-.1-1.4-.1h-.5c-.5 0-1 0-1.4.1.1.1.1.1.2.2.4.5.4 1.5.4 1.7.1 1.3 0 2.9-.7 3.3-.1 0-.2.1-.4.1-.6 0-1.3-.7-2.5-2.5-.6-1.1-1.1-2.2-1.1-2.2s0-.1-.1-.1-.2-.1-.2-.1h-2.9s0 0-.1 0c.4.9 2.5 5 4.8 7.2 2 1.9 4.3 2 4.7 2h1.4s.2 0 .2-.1c0 0 0 0 0-.1 0-.2 0-2 1.2-2.3z" /></svg>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="#" class="social-list__link">
+            <p class="social-list__text visually-hidden">Instagram</p>
+            <svg class="social-list__logo" enable-background="new 0 0 16 16" viewBox="0 0 16 16" width="16" height="16"  xmlns="http://www.w3.org/2000/svg"><g fill="#231f20"><path d="m11.8 1c1.8 0 3.2 1.4 3.2 3.2v7.7c0 1.7-1.4 3.1-3.1 3.1h-7.7c-1.8 0-3.2-1.4-3.2-3.2v-7.6c0-1.8 1.4-3.2 3.2-3.2zm0-1h-7.6c-2.3 0-4.2 1.9-4.2 4.2v7.7c0 2.2 1.9 4.1 4.2 4.1h7.7c2.3 0 4.2-1.9 4.2-4.2v-7.6c-.1-2.3-2-4.2-4.3-4.2z"/><path d="m8 4.9c1.7 0 3.1 1.4 3.1 3.1s-1.4 3.1-3.1 3.1-3.1-1.4-3.1-3.1 1.4-3.1 3.1-3.1m0-1c-2.3 0-4.1 1.8-4.1 4.1s1.8 4.1 4.1 4.1 4.1-1.8 4.1-4.1-1.8-4.1-4.1-4.1z"/><circle cx="12.3" cy="3.7" r=".9"/></g></svg>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="#" class="social-list__link">
+            <p class="social-list__text visually-hidden">Facebook</p>
+            <svg class="social-list__logo" enable-background="new 0 0 10 19" viewBox="0 0 10 19" width="10" height="19"  xmlns="http://www.w3.org/2000/svg"><path d="m7.1 19h-5.1v-8.8h-2v-4.4h1.9c-.1-2 .2-3.4 1.1-4.4.8-.9 2-1.3 3.5-1.4h3.5v4.2h-2.8c-.1.2-.2.8-.2 1.6h3v4.4h-2.9zm-4-1h2.8v-8.9h2.9v-2.3h-2.9v-.5c0-1.4 0-2.6.7-3.1l.1-.1h2.1v-2.1h-2.3c-1.2.1-2 .4-2.6 1-.8.8-1 2.3-.8 4.2l.1.6h-2.1v2.3h2z"/></svg>
+          </a>
+        </li>
       </ul>
       <div class="main-footer__copyright">
-        <a href="#" class="main-footer__authtor">HTML Academy</a> <!-- NOTE: before img -->
+        <a href="#" class="main-footer__authtor">
+          <p class="main-footer__text">HTML Academy</p>
+          <svg class="main-footer__logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" width="27" height="34"><path fill="#2E368F" d="M30.2 5h-.2l-19.7 2.1v36.2l19.7 11.7 19.7-11.7v-36.2l-19.5-2.1zm17 36.8l-17.2 10.2-17.2-10.2v-14.8l17.1 10.2v1.8l-11.7-7v1.8l11.8 7.1v1.9l-11.8-7v1.8l11.8 7 11.9-7.1v-7.6l5.3-3.2v15.1zm-.1-17l-4.7 2.8-2.2 1.3-10.3-6.1v1.8l8.8 5.3h-.1l-.2.1-1.3.7-7.3-4.3v1.8l5.8 3.4-1.4.9-4.3-2.6v1.8l2.9 1.7-2.9 1.7-17-10.1 17-10.2 17.2 10zm.1-1.8l-17.3-10.2-17.1 10.2v-13.6l17.2-1.8 17.2 1.8v13.6z"/></svg>
+        </a>
       </div>
     </footer>
   </body>
