@@ -1,6 +1,9 @@
 .catalog {
-  padding-left: 20px;
-  padding-right: 20px;
+  //padding-left: 20px;
+  //padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .catalog--bg-gray {
@@ -28,13 +31,13 @@
 }
 
 .catalog__item {
-  //padding: 22px;
   width: 320px;
   border-top: 1px solid #e6e6e6;
   border-bottom: 1px solid #e6e6e6;
 }
 
 .catalog__load-more {
+  width: 320px;
   padding-bottom: 24px;
   display: flex;
   flex-direction: column;
