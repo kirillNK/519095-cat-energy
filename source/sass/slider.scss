@@ -4,6 +4,18 @@
   align-items: center;
 }
 
+@media (min-width: 767px) {
+  .slider {
+    box-sizing: border-box;
+    width: 768px;
+    min-height: 462px;
+    justify-content: flex-end;
+    padding-bottom: 65px;
+    margin-left: -30px;
+    background-color: #f2f2f2;
+  }
+}
+
 .slider__wraper {
   margin-bottom: 20px;
 }

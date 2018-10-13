@@ -1,8 +1,14 @@
 .selection {
-  //
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 32px;
 }
 
 .selection__title {
+  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 32px;
   font-weight: 400;
   font-size: 36px;
   line-height: 60px;
@@ -11,6 +17,9 @@
 }
 
 .selection__subtitle {
+  margin: 0;
+  margin-bottom: 30px;
+  margin-left: 20px;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
@@ -19,12 +28,36 @@
   text-transform: uppercase;
 }
 
+.selection__fieldset {
+  padding: 0;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+  box-sizing: border-box;
+  border: none;
+}
+
+.selection__fieldset--border {
+  border: none;
+  width: 100%;
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+}
+
 .selection__inner-title {
+  margin-left: 20px;
   font-weight: 400;
   font-size: 24px;
   line-height: 24px;
   font-family: $font-family-oswald;
   color: #000000;
+}
+
+.selection__btn {
+  margin-bottom: 22px;
 }
 
 .selection__note {

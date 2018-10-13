@@ -1,8 +1,21 @@
 .input-box {
-  //
+  display: flex;
+  vertical-align: middle;
+  min-height: 48px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 15px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .input-box__label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
@@ -20,11 +33,30 @@
   text-transform: uppercase;
 }
 
+.selection__fieldset--radio .input-box {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.input-box__input[type="radio"] + .input-box__label {
+  // margin-left: 140px;
+  // display: none;
+}
+
+.input-box__label + .input-box__input[type="radio"] {
+  // margin-left: 44px;
+  display: none;
+}
+
 .input-box__input {
+  padding: 12px;
+  // width: 100%;
+  flex-grow: 1;
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
   font-family: $font-family-oswald;
   color: #444444;
   text-transform: uppercase;
+  border: 1px solid #e7e7e7;
 }

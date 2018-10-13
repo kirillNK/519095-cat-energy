@@ -5,3 +5,9 @@
   height: 364px;
   background: #f0f1f2 url("/img/bg-map-mobile@1x.png") no-repeat;
 }
+
+@media (min-width: 767px) {
+  .map {
+    // height: 400px;
+  }
+}

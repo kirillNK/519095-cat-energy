@@ -1,8 +1,16 @@
 .promo {
+  display: flex;
+  flex-direction: column;
   margin-bottom: 22px;
   background: url("../img/index-background-mobile@1x.jpg") no-repeat;
   background-size: 320px 305px;
   background-position: top center;
+
+  @media (min-width: 767px) {
+    .promo {
+      width: 488px;
+    }
+  }
 }
 
 .promo__wr {

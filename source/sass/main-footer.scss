@@ -6,6 +6,15 @@
   background-color: #f2f2f2;
 }
 
+@media (min-width: 767px) {
+  .main-footer {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
 .main-footer__authtor {
   display: flex;
   align-items: center;
@@ -19,6 +28,14 @@
 
 .main-footer__text {
   margin: 0 134px 0 0;
+}
+
+@media (min-width: 767px) {
+  .main-footer__text {
+    margin: 0;
+    width: 134px;
+    line-height: 16px;
+  }
 }
 
 .main-footer__logo {

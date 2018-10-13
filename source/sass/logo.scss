@@ -2,3 +2,9 @@
   margin-bottom: 30px;
   margin-top: 12px;
 }
+
+@media (min-width: 767px) {
+  .logo {
+    margin: 0;
+  }
+}
