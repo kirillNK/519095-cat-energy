@@ -4,4 +4,13 @@
   width: 100%;
   height: 364px;
   background: #f0f1f2 url("/img/bg-map-mobile@1x.png") no-repeat;
+  background-position: center;
+
+  @media (min-width: 767px) {
+    height: 398px;
+
+    // .map #ymaps1539523653709689035 {
+    //   height: 397px !important;
+    // }
+  }
 }
