@@ -47,7 +47,7 @@
   }
 }
 
-.example__row-wr {
+.example__row-wrapper {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -56,7 +56,7 @@
 }
 
 @media (min-width: 767px) {
-  .example__row-wr {
+  .example__row-wrapper {
     justify-content: space-between;
     margin-bottom: 252px;
   }
