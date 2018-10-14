@@ -131,6 +131,12 @@
   }
 }
 
+.cataog__btn {
+  @media (min-width: $desktop-width) {
+    width: 170px;
+  }
+}
+
 .catalog__text {
   margin: 0;
   margin-bottom: 20px;
