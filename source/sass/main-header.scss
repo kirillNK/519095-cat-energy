@@ -3,6 +3,14 @@
   display: flex;
   flex-direction: column;
 
+  @media (min-width: $tablet-width) {
+    min-height: 86px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
   @media (min-width: $desktop-width) {
     min-height: 115px;
     flex-direction: row;
@@ -21,7 +29,7 @@
   padding-right: 20px;
   border-bottom: 1px solid #e6e6e6;
 
-  @media (min-width: $desktop-width) {
+  @media (min-width: $tablet-width) {
     padding: 0;
     border: none;
   }
@@ -42,7 +50,7 @@
   background-color: #ffffff;
   cursor: pointer;
 
-  @media (min-width: $desktop-width) {
+  @media (min-width: $tablet-width) {
     display: none;
   }
 }
