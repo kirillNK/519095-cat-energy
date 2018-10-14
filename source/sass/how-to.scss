@@ -1,6 +1,12 @@
 .how-to {
   padding: 24px 20px;
   margin-bottom: 22px;
+
+  @media (min-width: $desktop-width) {
+    padding-left: 110px;
+    padding-right: 110px;
+    margin-bottom: 74px;
+  }
 }
 
 .how-to__title {
@@ -29,6 +35,10 @@
     justify-content: space-between;
     width: 708px;
     margin: 0 auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: auto;
   }
 }
 
@@ -62,6 +72,16 @@
 
     &:nth-child(4) {
       margin-bottom: 0;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 230px;
+    height: 54px;
+    margin-right: 80px;
+
+    &:last-child {
+      margin-right: 0;
     }
   }
 }
