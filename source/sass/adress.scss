@@ -8,6 +8,14 @@
     padding-left: 68px;
     padding-right: 68px;
   }
+
+  @media (min-width: $desktop-width) {
+    z-index: 1;
+    position: absolute;
+    left: 110px;
+    bottom: 136px;
+    background-color: #ffffff;
+  }
 }
 
 .adress--bg-gray {

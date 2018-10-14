@@ -16,6 +16,13 @@
     padding-left: 30px;
     padding-right: 30px;
   }
+
+  @media (min-width: $desktop-width) {
+    min-height: 150px;
+    padding: 0;
+    padding-left: 110px;
+    padding-right: 110px;
+  }
 }
 
 .main-footer__authtor {
