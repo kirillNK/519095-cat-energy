@@ -10,10 +10,8 @@
   justify-content: center;
   border-top: 1px solid #d9d9d9;
   border-bottom: 1px solid #d9d9d9;
-}
 
-@media (min-width: 767px) {
-  .social-list {
+  @media (min-width: 767px) {
     border: none;
     margin-bottom: 0;
     padding: 0;

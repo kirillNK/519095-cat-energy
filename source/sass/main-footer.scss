@@ -4,10 +4,8 @@
   align-items: center;
   padding: 24px 20px;
   background-color: #f2f2f2;
-}
 
-@media (min-width: 767px) {
-  .main-footer {
+  @media (min-width: 767px) {
     flex-direction: row;
     justify-content: space-between;
     padding-left: 30px;
@@ -28,10 +26,8 @@
 
 .main-footer__text {
   margin: 0 134px 0 0;
-}
 
-@media (min-width: 767px) {
-  .main-footer__text {
+  @media (min-width: 767px) {
     margin: 0;
     width: 134px;
     line-height: 16px;
