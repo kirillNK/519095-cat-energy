@@ -212,6 +212,11 @@
     margin: 0 auto;
     .selection__fieldset {
       margin: 0;
+      margin-right: 80px;
+
+      &:last-child {
+        margin-right: 0;
+      }
     }
 
     display: flex;
