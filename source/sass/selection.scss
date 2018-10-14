@@ -157,6 +157,7 @@
 
 .selection__btn {
   margin-bottom: 22px;
+  margin-top: 30px;
   margin-left: 20px;
   font-weight: 400;
   font-size: 16px;
@@ -198,13 +199,17 @@
 }
 
 .selection__row-wrapper {
-  display: flex;
-  justify-content: space-between;
-  width: 1220px;
-  margin: 0 auto;
-  margin-bottom: 60px;
+  margin-bottom: 24px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 60px;
+  }
 
   @media (min-width: $desktop-width) {
+    display: flex;
+    justify-content: space-between;
+    width: 1220px;
+    margin: 0 auto;
     .selection__fieldset {
       margin: 0;
     }
@@ -231,6 +236,8 @@
 
 
 .selection__fieldset--contact {
+    padding: 0;
+
   @media (min-width: $desktop-width) {
     padding: 0;
     width: 1220px;
