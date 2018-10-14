@@ -80,3 +80,32 @@
 .input-box__input--radio {
   display: none;
 }
+
+.input-box__input--checkbox {
+  display: none;
+}
+
+.input-box__label--checkbox {
+  position: relative;
+  margin-left: 17px;
+
+  &::before {
+    content: "";
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #f2f2f2;
+    left: -16px;
+  }
+}
+
+.input-box__input--checkbox:checked + .input-box__label--checkbox {
+  &::after {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: -6px;
+    background-color: #68b738;
+  }
+}
