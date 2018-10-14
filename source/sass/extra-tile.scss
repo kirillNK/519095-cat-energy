@@ -1,12 +1,20 @@
 .extra-tile {
   display: flex;
   flex-direction: column;
+
+  @media (min-width: $desktop-width) {
+    flex-direction: row;
+  }
 }
 
 .extra-tile-wrapper {
   display: flex;
   justify-content: space-between;
   margin-bottom: 13px;
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 0;
+  }
 }
 
 .extra-tile__quantity {
@@ -31,4 +39,8 @@
     font-size: 16px;
     line-height: 20px;
   }
+}
+
+.extra-tile__btn {
+  //
 }

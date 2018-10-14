@@ -25,6 +25,11 @@
   font-family: $font-family-oswald;
   color: #000000;
   text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 20px;
+  }
 }
 
 .product-tile__spec {
@@ -33,8 +38,19 @@
   font-size: 12px;
   line-height: 16px;
   color: #444444;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 16px;
+  }
 }
 
 .product-tile__table-row td:last-child {
   text-align: right;
+}
+
+.product-tile__btn {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
 }
