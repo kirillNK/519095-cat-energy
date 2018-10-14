@@ -6,6 +6,12 @@
     padding-left: 30px;
     padding-right: 30px;
   }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    padding-left: 110px;
+    padding-right: 110px;
+  }
 }
 
 .features__item {
@@ -34,6 +40,16 @@
       height: 200px;
       background-color: #68b738;
       border-radius: 50%;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 570px;
+    margin-bottom: 0;
+    margin-right: 80px;
+
+    &:last-child {
+      margin-right: 0;
     }
   }
 }
