@@ -10,6 +10,10 @@
   flex-wrap: wrap;
 
   @include resetList;
+
+  @media (min-width: $desktop-width) {
+    flex-direction: row;
+  }
 }
 
 .main-menu__item {
@@ -27,6 +31,17 @@
 
   &:last-child {
     border-bottom: 1px solid #e6e6e6;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: auto;
+    margin-right: 32px;
+
+    &:last-child {
+      margin-right: 0;
+
+      border: none;
+    }
   }
 }
 
