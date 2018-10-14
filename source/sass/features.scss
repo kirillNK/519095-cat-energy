@@ -18,6 +18,8 @@
   }
 
   @media (min-width: 767px) {
+    box-sizing: border-box;
+    width: 708px;
     margin-bottom: 30px;
     padding: 70px 50px;
     position: relative;
