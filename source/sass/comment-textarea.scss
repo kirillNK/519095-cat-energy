@@ -7,6 +7,11 @@
   font-family: $font-family-oswald;
   color: #444444;
   text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 
 .comment-textarea {
@@ -22,4 +27,9 @@
   text-transform: uppercase;
   border: 1px solid #e7e7e7;
   resize: none;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }

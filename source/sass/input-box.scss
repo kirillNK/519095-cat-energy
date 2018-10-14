@@ -22,6 +22,11 @@
   font-family: $font-family-oswald;
   color: #000000;
   text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 20px;
+  }
 }
 
 .input-box__label--radio {
@@ -58,6 +63,11 @@
   font-family: $font-family-oswald;
   color: #444444;
   text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 20px;
+  }
 }
 
 .selection__fieldset--radio .input-box {
