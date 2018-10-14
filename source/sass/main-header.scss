@@ -8,26 +8,19 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
   border-bottom: 1px solid #e6e6e6;
 }
 
-.main-header__img {
-  display: block;
-  margin-left: 20px;
-  width: 33px;
-  height: 38px;
-  background-color: gray;
-  overflow: hidden;
-}
-
 .logo__img {
-  width: 101px;
-  height: 18px;
+  width: 190px;
+  height: 38px;
   display: block;
 }
 
 .main-header__toggle {
-  margin-right: 20px;
+  // margin-right: 20px;
   width: 25px;
   height: 18px;
   font-size: 0;
