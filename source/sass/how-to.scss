@@ -7,6 +7,10 @@
     padding-right: 110px;
     margin-bottom: 74px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 82px;
+  }
 }
 
 .how-to__title {
@@ -39,6 +43,7 @@
 
   @media (min-width: $desktop-width) {
     width: auto;
+    min-height: 222px;
   }
 }
 
@@ -96,5 +101,10 @@
 
   @media (min-width: 767px) {
     padding-top: 110px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 16px;
+    line-height: 24px;
   }
 }
