@@ -24,6 +24,10 @@
     font-size: 60px;
     margin-left: 30px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 110px;
+  }
 }
 
 .selection__subtitle {
@@ -41,6 +45,11 @@
     font-size: 20px;
     line-height: 30px;
     margin-left: 68px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 325px;
+    margin-left: 110px;
   }
 }
 
@@ -63,6 +72,17 @@
       margin-bottom: 0;
     }
   }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 110px;
+    margin-bottom: 60px;
+  }
+}
+
+.selection__fieldset--comment {
+  @media (min-width: $desktop-width) {
+    padding: 0;
+  }
 }
 
 .selection__input-box-wrapper {
@@ -73,6 +93,20 @@
     width: 538px;
     height: 116px;
   }
+
+  @media (min-width: $desktop-width) {
+    .input-box {
+      height: 40px;
+      margin: 0;
+      margin-bottom: 45px;
+    }
+    width: 1126px;
+    height: 42px;
+  }
+}
+
+.selection__fieldset-additional {
+  padding: 0;
 }
 
 .selection__fieldset--border {
@@ -85,6 +119,16 @@
     width: 630px;
     border: 1px solid #ededed;
     padding-left: 26px;
+  }
+
+  @media (min-width: $desktop-width) {
+    .input-box {
+      margin: 0;
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
   }
 }
 
@@ -114,6 +158,7 @@
 .selection__btn {
   margin-bottom: 22px;
   margin-left: 20px;
+  font-weight: 400;
   font-size: 16px;
   line-height: 20px;
 
@@ -122,6 +167,12 @@
     margin-left: 70px;
     margin-right: 60px;
     font-size: 20px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 110px;
+    margin-right: 80px;
+    width: 570px;
   }
 }
 
@@ -143,5 +194,45 @@
   @media (min-width: $tablet-width) {
     display: flex;
     align-items: center;
+  }
+}
+
+.selection__row-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 1220px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+
+  @media (min-width: $desktop-width) {
+    .selection__fieldset {
+      margin: 0;
+    }
+
+    display: flex;
+    align-items: center;
+    height: 198px;
+  }
+}
+
+.selection__contact-wrapper {
+  @media (min-width: $desktop-width) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.selection__contact-wrapper .input-box {
+  @media (min-width: $desktop-width) {
+    margin: 0;
+    width: 570px;
+  }
+}
+
+
+.selection__fieldset--contact {
+  @media (min-width: $desktop-width) {
+    padding: 0;
+    width: 1220px;
   }
 }
