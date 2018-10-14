@@ -25,6 +25,19 @@
   .features__item {
     margin-bottom: 30px;
     padding: 70px 50px;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      right: 60px;
+      top: 92px;
+      display: block;
+      width: 200px;
+      height: 200px;
+      background-color: #68b738;
+      border-radius: 50%;
+    }
   }
 }
 
@@ -55,9 +68,14 @@
 
 @media (min-width: 767px) {
   .features__title {
+    position: static;
     font-size: 36px;
     margin-bottom: 24px;
     margin-left: 0;
+
+    &::before {
+      display: none;
+    }
   }
 }
 
