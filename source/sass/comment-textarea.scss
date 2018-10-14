@@ -29,6 +29,8 @@
   resize: none;
 
   @media (min-width: $tablet-width) {
+    width: 632px;
+    height: 170px;
     font-size: 20px;
     line-height: 30px;
   }
