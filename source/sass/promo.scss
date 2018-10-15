@@ -1,25 +1,106 @@
 .promo {
-  padding: 24px 20px;
+  display: flex;
+  flex-direction: column;
   margin-bottom: 22px;
   background: url("../img/index-background-mobile@1x.jpg") no-repeat;
-  background-color: #67b737;
-  background-size: contain;
+  background-size: 320px 305px;
+  background-position: top center;
+
+  @media (min-width: 767px) {
+    background: none;
+  }
+
+  @media (min-width: $desktop-width) {
+    // min
+    height: 586px;
+    margin-bottom: 80px;
+  }
+}
+
+.promo__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 28px;
+
+  @media (min-width: 767px) {
+    align-items: flex-start;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-left: 110px;
+    padding-right: 110px;
+  }
 }
 
 .promo__title {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 20px;
   font-weight: 400;
   font-size: 36px;
   line-height: 36px;
   font-family: $font-family-oswald;
   color: #ffffff;
   text-transform: uppercase;
+
+  @media (min-width: 767px) {
+    width: 428px;
+    margin-bottom: 30px;
+    text-align: left;
+    color: #000000;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 570px;
+    font-size: 60px;
+    line-height: 60px;
+  }
 }
 
 .promo__slogan {
+  margin: 0;
+  margin-bottom: 26px;
   font-weight: 400;
   font-size: 14px;
   line-height: 14px;
   font-family: $font-family-oswald;
   color: #ffffff;
   text-transform: uppercase;
+  text-align: center;
+
+  @media (min-width: 767px) {
+    color: #000000;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
+.promo__btn {
+  @media (min-width: 767px) {
+    position: absolute;
+    top: 230px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
+.promo__product-img {
+  margin: 0 auto;
+  margin-bottom: 3px;
+
+  @media (min-width: 767px) {
+    width: 709px;
+    height: auto;
+  }
 }

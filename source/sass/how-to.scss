@@ -1,19 +1,111 @@
 .how-to {
   padding: 24px 20px;
   margin-bottom: 22px;
+
+  @media (min-width: $desktop-width) {
+    padding-left: 110px;
+    padding-right: 110px;
+    margin-bottom: 74px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 82px;
+  }
 }
 
 .how-to__title {
+  margin: 0;
+  margin-bottom: 35px;
   font-weight: 400;
   font-size: 36px;
   line-height: 60px;
   font-family: $font-family-oswald;
   color: #000000;
+
+  @media (min-width: 767px) {
+    font-size: 60px;
+  }
+}
+
+.how-to__list {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  @include resetList;
+
+  @media (min-width: 767px) {
+    justify-content: space-between;
+    width: 708px;
+    margin: 0 auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: auto;
+    min-height: 222px;
+  }
+}
+
+.how-to__item {
+  position: relative;
+  margin-bottom: 28px;
+  margin-left: 80px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: -80px;
+    bottom: 50%;
+    margin-bottom: -30px;
+    width: 60px;
+    height: 60px;
+    background-color: #68b738;
+  }
+
+  @media (min-width: 767px) {
+    width: 324px;
+    margin-left: 0;
+
+    &::before {
+      top: 0;
+      left: 0;
+    }
+
+    &:nth-child(3) {
+      margin-bottom: 0;
+    }
+
+    &:nth-child(4) {
+      margin-bottom: 0;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 230px;
+    height: 230px;
+    margin-right: 80px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
 }
 
 .how-to__description {
+  margin: 0;
+  width: 200px;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
   color: #000000;
+
+  @media (min-width: 767px) {
+    padding-top: 110px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }

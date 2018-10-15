@@ -1,25 +1,145 @@
 .catalog {
-  //
+  padding-left: 30px;
+  padding-right: 30px;
+
+  @media (min-width: $desktop-width) {
+    padding-left: 110px;
+    padding-right: 110px;
+  }
+}
+
+.catalog--bg-gray {
+  background-color: #f2f2f2;
 }
 
 .catalog__title {
+  margin: 0;
+  // padding-left: 20px;
+  margin-top: 12px;
+  margin-bottom: 20px;
   font-weight: 400;
   font-size: 36px;
   line-height: 60px;
   font-family: $font-family-oswald;
   color: #000000;
+
+  @media (min-width: $tablet-width) {
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 70px;
+  }
+}
+
+.catalog__list {
+  @include resetList;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+
+  @media (min-width: $tablet-width) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 66px;
+  }
+}
+
+.catalog__item {
+  width: 320px;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+
+  @media (min-width: $tablet-width) {
+    width: 324px;
+    min-height: 516px;
+    margin-bottom: 60px;
+    background-color: #f2f2f2;
+
+    &:nth-child(7) {
+      margin-bottom: 0;
+    }
+
+    &:nth-child(8) {
+      margin-bottom: 0;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 245px;
+
+    &:nth-child(5) {
+      margin-bottom: 0;
+    }
+
+    &:nth-child(6) {
+      margin-bottom: 0;
+    }
+
+    &:nth-child(7) {
+      margin-bottom: 0;
+    }
+
+    &:nth-child(8) {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.catalog__load-more {
+  width: 320px;
+  padding-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #e6e6e6;
+
+  @media (min-width: $tablet-width) {
+    width: 324px;
+    min-height: 516px;
+    padding-bottom: 0;
+    background-color: #f2f2f2;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 245px;
+  }
 }
 
 .catalog__load-more .catalog__title {
+  position: relative;
+  margin: 0;
+  margin-bottom: 10px;
+  margin-top: 80px;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   font-family: $font-family-oswald;
   color: #000000;
   text-transform: uppercase;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -48px;
+    left: 98px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+  }
+}
+
+.cataog__btn {
+  @media (min-width: $desktop-width) {
+    width: 170px;
+  }
 }
 
 .catalog__text {
+  margin: 0;
+  margin-bottom: 20px;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;

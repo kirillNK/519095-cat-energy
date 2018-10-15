@@ -1,14 +1,72 @@
 .input-box {
-  //
+  display: flex;
+  vertical-align: middle;
+  min-height: 48px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 15px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  @media (min-width: $tablet-width) {
+    padding-left: 0;
+    padding-right: 0;
+    // margin-right: 20px;
+    margin-bottom: 22px;
+  }
 }
 
 .input-box__label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
   font-family: $font-family-oswald;
   color: #000000;
   text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
+.input-box--last {
+  @media (min-width: $tablet-width) {
+    margin-right: 40px;
+  }
+}
+
+.input-box__label--radio {
+  position: relative;
+  margin-left: 17px;
+
+  &::before {
+    content: "";
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #f2f2f2;
+    border-radius: 50%;
+    left: -16px;
+  }
+}
+
+.input-box__input--radio:checked + .input-box__label--radio {
+  &::after {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: -6px;
+    border-radius: 50%;
+    background-color: #68b738;
+  }
 }
 
 .input-box__input::placeholder {
@@ -18,13 +76,59 @@
   font-family: $font-family-oswald;
   color: #444444;
   text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+.selection__fieldset--radio .input-box {
+  display: flex;
+  justify-content: flex-start;
 }
 
 .input-box__input {
+  padding: 12px;
+  flex-grow: 1;
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
   font-family: $font-family-oswald;
   color: #444444;
   text-transform: uppercase;
+  border: 1px solid #e7e7e7;
+}
+
+.input-box__input--radio {
+  display: none;
+}
+
+.input-box__input--checkbox {
+  display: none;
+}
+
+.input-box__label--checkbox {
+  position: relative;
+  margin-left: 17px;
+
+  &::before {
+    content: "";
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #f2f2f2;
+    left: -16px;
+  }
+}
+
+.input-box__input--checkbox:checked + .input-box__label--checkbox {
+  &::after {
+    content: "";
+    position: absolute;
+    width: 21px;
+    height: 16px;
+    left: -6px;
+    background-color: #68b738;
+  }
 }
