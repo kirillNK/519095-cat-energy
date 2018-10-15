@@ -34,7 +34,8 @@
       content: "";
       position: absolute;
       right: 60px;
-      top: 92px;
+      bottom: 50%;
+      margin-bottom: -100px;
       display: block;
       width: 200px;
       height: 200px;
@@ -51,6 +52,10 @@
     &:last-child {
       margin-right: 0;
     }
+
+    &::before {
+      display: none;
+    }
   }
 }
 
@@ -66,14 +71,36 @@
 
   &::before {
     content: "";
-    position: absolute;
-    left: -70px;
-    top: -4px;
     display: block;
     width: 50px;
     height: 50px;
+    position: absolute;
+    left: -70px;
+    bottom: 50%;
+    margin-bottom: -25px;
     background-color: #68b738;
     border-radius: 50%;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 39px;
+    height: 49px;
+    left: -64px;
+    bottom: 50%;
+    margin-bottom: -20px;
+    background: url("/img/icon-cat-slim.svg") no-repeat;
+  }
+
+  &:last-child {
+    &::after {
+      width: 67px;
+      height: 28px;
+      background: url("/img/icon-cat-pro.svg") no-repeat;
+    }
   }
 
   @media (min-width: 767px) {
@@ -84,6 +111,22 @@
 
     &::before {
       display: none;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    position: relative;
+    margin-left: 164px;
+    margin-bottom: 66px;
+
+    &::before {
+      position: absolute;
+      display: block;
+      width: 100px;
+      height: 100px;
+      left: -164px;
+      bottom: 50%;
+      margin-bottom: -50px;
     }
   }
 }
@@ -122,15 +165,20 @@
   &::after {
     content: "";
     position: absolute;
+    background: url("/img/icon-right-arrow-long.svg") no-repeat;
     width: 24px;
-    height: 11px;
-    top: 7px;
-    right: -32px;
-    background-color: gray;
+    height: 10px;
+    right: -36px;
+    bottom: 50%;
+    margin-bottom: -5px;
   }
 
   @media (min-width: 767px) {
     font-size: 20px;
     line-height: 20px;
+
+    &::after {
+      right: -49px;
+    }
   }
 }
