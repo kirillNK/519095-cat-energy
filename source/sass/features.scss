@@ -2,9 +2,9 @@
   padding-left: 20px;
   padding-right: 20px;
 
-  @media (min-width: 767px) {
-    padding-left: 30px;
-    padding-right: 30px;
+  @media (min-width: $tablet-width) {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   @media (min-width: $desktop-width) {
@@ -18,24 +18,28 @@
   padding: 20px;
   background-color: #f2f2f2;
   margin-bottom: 20px;
+  padding-top: 29px;
 
   &:last-child {
     margin-bottom: 0;
   }
 
-  @media (min-width: 767px) {
+  @media (min-width: $tablet-width) {
     box-sizing: border-box;
     width: 708px;
     margin-bottom: 30px;
-    padding: 70px 50px;
+    padding-top: 76px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
     position: relative;
 
     &::before {
       content: "";
       position: absolute;
-      right: 60px;
+      right: 64px;
       bottom: 50%;
-      margin-bottom: -100px;
+      margin-bottom: -106px;
       display: block;
       width: 200px;
       height: 200px;
@@ -61,7 +65,7 @@
 
 .features__title {
   position: relative;
-  margin: 0 0 34px 70px;
+  margin: 0 0 32px 70px;
   font-weight: 400;
   font-size: 24px;
   line-height: 37px;
