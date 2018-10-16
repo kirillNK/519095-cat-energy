@@ -4,8 +4,6 @@
   flex-direction: column;
   margin-bottom: 20px;
   height: 482px;
-  background-size: 320px 305px;
-  background-position: top center;
 
   &::after {
     position: absolute;
@@ -52,8 +50,31 @@
   }
 
   @media (min-width: $desktop-width) {
-    height: 586px;
+    padding-top: 72px;
+    padding-left: 4px;
+    height: 512px;
     margin-bottom: 80px;
+
+    &::after {
+      position: absolute;
+      content: "";
+      display: block;
+      top: 30px;
+      left: 50%;
+      margin-left: -161px;
+      width: 552px;
+      height: 499px;
+      background: url("/img/index-can-desktop@1x.png") no-repeat;
+    }
+
+    &::before {
+      display: block;
+      background: url("/img/index-background-desktop@1x.jpg") no-repeat;
+      width: 720px;
+      height: 696px;
+      top: -112px;
+      left: 720px;
+    }
   }
 }
 

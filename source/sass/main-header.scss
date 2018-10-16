@@ -13,8 +13,10 @@
   }
 
   @media (min-width: $desktop-width) {
-    min-height: 115px;
+    z-index: 2;
+    min-height: 112px;
     flex-direction: row;
+    align-items: flex-end;
     justify-content: space-between;
     padding-left: 110px;
     padding-right: 110px;
