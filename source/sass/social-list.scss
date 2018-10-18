@@ -12,7 +12,7 @@
   border-top: 1px solid #d9d9d9;
   border-bottom: 1px solid #d9d9d9;
 
-  @media (min-width: 767px) {
+  @media (min-width: $tablet-width) {
     border: none;
     margin: 0;
     padding: 0;
@@ -29,6 +29,10 @@
   align-items: center;
   justify-content: space-around;
 
+  @media (min-width: $tablet-width) {
+    margin-right: 26px;
+  }
+
   &:last-child {
     margin-right: 0;
   }
@@ -36,4 +40,27 @@
 
 .social-list__text {
   margin: 0;
+}
+
+
+.social-list__logo--vk {
+  @media (min-width: $tablet-width) {
+    width: 30px;
+    height: 38px;
+  }
+}
+
+.social-list__logo--instagram {
+  @media (min-width: $tablet-width) {
+    width: 23px;
+    height: 23px;
+    margin-bottom: -3px;
+  }
+}
+
+.social-list__logo--fb {
+  @media (min-width: $tablet-width) {
+    width: 21px;
+    height: 26px;
+  }
 }
