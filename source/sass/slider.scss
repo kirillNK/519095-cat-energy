@@ -3,13 +3,14 @@
   flex-direction: column;
   align-items: center;
 
-  @media (min-width: 767px) {
+  @media (min-width: $tablet-width) {
     box-sizing: border-box;
     width: 768px;
-    height: 462px;
+    height: 461px;
     justify-content: flex-end;
-    padding-bottom: 65px;
-    margin-left: -30px;
+    padding-bottom: 86px;
+    margin-left: -20px;
+    margin-top: 257px;
     background-color: #f2f2f2;
   }
 
@@ -24,8 +25,9 @@
 }
 
 .slider__image {
-  @media (min-width: 767px) {
-    height: 500px;
+  @media (min-width: $tablet-width) {
+    height: 515px;
+    margin-left: -13px;
     width: auto;
   }
 }
@@ -39,7 +41,7 @@
   font-family: $font-family-oswald;
   color: #000000;
 
-  @media (min-width: 767px) {
+  @media (min-width: $tablet-width) {
     font-size: 20px;
   }
 }

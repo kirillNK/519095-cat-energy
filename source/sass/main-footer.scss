@@ -13,8 +13,9 @@
     flex-direction: row;
     justify-content: space-between;
     min-height: 135px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 18px;
+    padding-right: 31px;
+    padding-bottom: 20px;
   }
 
   @media (min-width: $desktop-width) {
@@ -34,6 +35,11 @@
   font-family: $font-family-oswald;
   color: #000000;
   text-decoration: none;
+
+  @media (min-width: $tablet-width) {
+    width: 176px;
+    margin-bottom: 4px;
+  }
 }
 
 .main-footer__text {
@@ -44,7 +50,7 @@
 
   @media (min-width: 767px) {
     margin: 0;
-    width: 120px;
+    width: 131px;
   }
 }
 
