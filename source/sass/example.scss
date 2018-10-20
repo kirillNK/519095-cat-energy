@@ -1,5 +1,7 @@
 .example {
   padding: 24px 20px;
+  padding-top: 14px;
+  padding-bottom: 35px;
   background-color: #f2f2f2;
 
   @media (min-width: 767px) {
@@ -17,7 +19,7 @@
 
 .example__title {
   margin: 0;
-  margin-bottom: 16px;
+  margin-bottom: 22px;
   font-weight: 400;
   font-size: 36px;
   line-height: 60px;
@@ -32,7 +34,7 @@
 
 .example__text {
   margin: 0;
-  margin-bottom: 26px;
+  margin-bottom: 25px;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
@@ -50,7 +52,7 @@
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 35px;
 
   @media (min-width: 767px) {
     justify-content: space-between;
@@ -62,7 +64,7 @@
   @include resetList;
 
   margin: 0;
-  margin-bottom: 36px;
+  margin-bottom: 33px;
   display: flex;
   justify-content: space-between;
 
@@ -74,7 +76,7 @@
 .example__advantages-item {
   position: relative;
   display: flex;
-  width: 124px;
+  width: 122px;
   margin-right: 32px;
   align-items: center;
   justify-content: space-around;
@@ -92,7 +94,7 @@
 }
 
 .example__advantages-result {
-  padding-top: 18px;
+  padding-top: 13px;
   padding-bottom: 18px;
   margin: 0;
   text-align: center;

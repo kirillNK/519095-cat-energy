@@ -1,6 +1,7 @@
 .how-to {
   padding: 24px 20px;
-  margin-bottom: 22px;
+  padding-top: 16px;
+  // margin-bottom: 22px;
 
   @media (min-width: $tablet-width) {
     padding: 47px 20px 24px;
@@ -15,7 +16,7 @@
 
 .how-to__title {
   margin: 0;
-  margin-bottom: 35px;
+  margin-bottom: 29px;
   font-weight: 400;
   font-size: 36px;
   line-height: 60px;
@@ -50,7 +51,7 @@
 
 .how-to__item {
   position: relative;
-  margin-bottom: 28px;
+  margin-bottom: 26px;
   margin-left: 80px;
 
   &::after {
