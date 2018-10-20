@@ -31,6 +31,19 @@
     margin-bottom: 30px;
     padding: 76px 50px 60px;
 
+    &::after {
+      content: "";
+      position: absolute;
+      z-index: 1;
+      display: block;
+      width: 142px;
+      height: 193px;
+      left: 474px;
+      bottom: 50%;
+      margin-bottom: -85px;
+      background: url("/img/icon-cat-slim.svg") no-repeat;
+    }
+
     &::before {
       content: "";
       position: absolute;
@@ -55,6 +68,33 @@
     }
 
     &::before {
+      display: none;
+    }
+
+    &::after {
+      display: none;
+    }
+  }
+}
+
+.features__item--get {
+  @media (min-width: $tablet-width) {
+    &::after {
+      content: "";
+      position: absolute;
+      z-index: 1;
+      display: block;
+      width: 268px;
+      height: 397px;
+      left: 409px;
+      bottom: 50%;
+      margin-bottom: -345px;
+      background: url("/img/icon-cat-pro.svg") no-repeat;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    &::after {
       display: none;
     }
   }
@@ -97,14 +137,6 @@
     background: url("/img/icon-cat-slim.svg") no-repeat;
   }
 
-  &:last-child {
-    &::after {
-      width: 67px;
-      height: 28px;
-      background: url("/img/icon-cat-pro.svg") no-repeat;
-    }
-  }
-
   @media (min-width: $tablet-width) {
     position: static;
     margin-bottom: 24px;
@@ -126,6 +158,7 @@
       height: 97px;
       left: -148px;
       margin-bottom: -44px;
+      background: url("/img/icon-cat-slim.svg") no-repeat;
     }
 
     &::before {
@@ -136,6 +169,39 @@
       left: -164px;
       bottom: 50%;
       margin-bottom: -50px;
+    }
+  }
+}
+
+.features__title--get {
+  &::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 68px;
+    height: 30px;
+    left: -78px;
+    bottom: 50%;
+    margin-bottom: -15px;
+    background: url("/img/icon-cat-pro.svg") no-repeat;
+  }
+
+  @media (min-width: $tablet-width) {
+    &::after {
+      display: none;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    &::after {
+      display: block;
+      width: 132px;
+      height: 57px;
+      left: -179px;
+      bottom: 50%;
+      margin-bottom: -31px;
+      background: url("/img/icon-cat-pro.svg") no-repeat;
     }
   }
 }
