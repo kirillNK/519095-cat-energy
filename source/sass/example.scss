@@ -14,8 +14,11 @@
   }
 
   @media (min-width: $desktop-width) {
+    display: flex;
     padding-left: 110px;
     padding-right: 110px;
+    padding-top: 22px;
+    border: none;
   }
 }
 
@@ -28,9 +31,13 @@
   font-family: $font-family-oswald;
   color: #000000;
 
-  @media (min-width: 767px) {
+  @media (min-width: $tablet-width) {
     font-size: 60px;
     margin-bottom: 64px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 148px;
   }
 }
 
@@ -42,11 +49,20 @@
   line-height: 18px;
   color: #444444;
 
-  @media (min-width: 767px) {
+  @media (min-width: $tablet-width) {
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 53px;
   }
+
+  @media (min-width: $desktop-width) {
+    width: 450px;
+    margin-bottom: 67px;
+  }
+}
+
+.example__content-wrapper {
+  width: 650px;
 }
 
 .example__row-wrapper {
@@ -56,9 +72,14 @@
   align-items: center;
   margin-bottom: 35px;
 
-  @media (min-width: 767px) {
+  @media (min-width: $tablet-width) {
     justify-content: space-between;
     margin-bottom: 252px;
+  }
+
+  @media (min-width: $desktop-width) {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
 
@@ -70,8 +91,12 @@
   display: flex;
   justify-content: space-between;
 
-  @media (min-width: 767px) {
+  @media (min-width: $tablet-width) {
     margin-bottom: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 63px;
   }
 }
 
@@ -152,19 +177,27 @@
   color: #000000;
   text-transform: uppercase;
 
-  @media (min-width: 767px) {
+  @media (min-width: $tablet-width) {
     margin: 0;
     margin-right: 23px;
     margin-bottom: 7px;
     font-size: 20px;
     text-align: right;
   }
+
+  @media (min-width: $desktop-width) {
+    text-align: left;
+  }
 }
 
 .example__total-price br {
   display: none;
 
-  @media (min-width: 767px) {
+  @media (min-width: $tablet-width) {
     display: block;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: none;
   }
 }

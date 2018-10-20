@@ -12,8 +12,11 @@
   @media (min-width: $desktop-width) {
     z-index: 1;
     position: absolute;
+    width: 426px;
     left: 110px;
-    bottom: 136px;
+    padding-left: 78px;
+    padding-right: 66px;
+    bottom: 103px;
     background-color: #ffffff;
   }
 }
@@ -32,7 +35,7 @@
   color: #000000;
   text-transform: uppercase;
 
-  @media (min-width: 767px) {
+  @media (min-width: $tablet-width) {
     font-size: 20px;
     line-height: 25px;
   }
@@ -46,11 +49,17 @@
   line-height: 20px;
   color: #000000;
 
-  @media (min-width: 767px) {
+  @media (min-width: $tablet-width) {
     width: 166px;
     text-align: right;
     font-size: 16px;
     line-height: 20px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-right: 13px;
+    margin-bottom: 3px;
+    text-align: left;
   }
 }
 

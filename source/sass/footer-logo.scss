@@ -3,4 +3,8 @@
     margin-right: 21px;
     margin-bottom: -5px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-right: 21px;
+  }
 }
