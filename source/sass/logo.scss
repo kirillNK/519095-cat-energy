@@ -1,3 +1,9 @@
 .logo {
-  margin-bottom: -7px;
+  @media (min-width: $tablet-width) {
+    margin-bottom: 16px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: -7px;
+  }
 }
