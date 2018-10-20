@@ -62,7 +62,9 @@
 }
 
 .example__content-wrapper {
-  width: 650px;
+  @media (min-width: $desktop-width) {
+    width: 650px;
+  }
 }
 
 .example__row-wrapper {
