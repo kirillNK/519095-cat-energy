@@ -1,6 +1,7 @@
 .extra {
   padding-left: 20px;
   padding-right: 20px;
+  margin-bottom: 34px;
 
   @media (min-width: $tablet-width) {
     padding-left: 30px;
@@ -16,7 +17,7 @@
 
 .extra__title {
   margin: 0;
-  padding-bottom: 28px;
+  padding-bottom: 32px;
   margin-top: 30px;
   font-weight: 400;
   font-size: 24px;
@@ -49,7 +50,7 @@
 
 .extra__item {
   padding-top: 13px;
-  padding-bottom: 18px;
+  padding-bottom: 17px;
   border-bottom: 1px solid #cdcdcd;
 
   &:first-child {
@@ -99,7 +100,7 @@
   height: 289px;
   padding-left: 55px;
   padding-right: 55px;
-  padding-bottom: 45px;
+  padding-bottom: 43px;
   background: url("../img/gift-photo-mobile@1x.jpg") no-repeat;
   background-color: #67b737;
   background-size: contain;
@@ -108,7 +109,6 @@
     box-sizing: border-box;
     width: 708px;
     height: 200px;
-    // min
     margin-bottom: 76px;
   }
 
@@ -131,12 +131,12 @@
   &::before {
     content: "";
     position: absolute;
-    top: 64px;
+    top: 65px;
     display: block;
     width: 55px;
     height: 60px;
     left: 113px;
-    background-color: red;
+    background: url("/img/icon-gift.svg") no-repeat;
   }
 }
 
