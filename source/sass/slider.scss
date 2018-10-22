@@ -22,6 +22,8 @@
 }
 
 .slider__btn {
+  border: none;
+  background-color: transparent;
   @media (min-width: $tablet-width) {
     margin-bottom: -5px;
     border: none;
