@@ -4,22 +4,23 @@
   flex-direction: column;
 
   @media (min-width: $tablet-width) {
-    min-height: 82px;
+    padding-top: 22px;
+    padding-bottom: 19px;
     flex-direction: row;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-between;
     padding-left: 30px;
-    padding-right: 30px;
+    padding-right: 44px;
   }
 
   @media (min-width: $desktop-width) {
     z-index: 2;
-    min-height: 112px;
     flex-direction: row;
-    align-items: flex-end;
-    justify-content: space-between;
+    align-items: center;
     padding-left: 110px;
     padding-right: 110px;
+    padding-top: 54px;
+    padding-bottom: 0;
   }
 }
 
