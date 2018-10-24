@@ -4,7 +4,8 @@
   justify-content: space-around;
 
   @media (min-width: 767px) {
-    justify-content: space-between;
+    // justify-content: space-between;
+    display: block;
     padding: 67px 58px 55px;
     padding-right: 85px;
   }
@@ -75,4 +76,9 @@
   display: flex;
   justify-content: space-between;
   max-width: 280px;
+
+  @media (min-width: $tablet-width) {
+    max-width: $tablet-width;
+    margin: 0 auto;
+  }
 }

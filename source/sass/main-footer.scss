@@ -8,7 +8,7 @@
   padding-top: 38px;
   background-color: #f2f2f2;
 
-  @media (min-width: 767px) {
+  @media (min-width: $tablet-width) {
     box-sizing: border-box;
     flex-direction: row;
     justify-content: space-between;
@@ -81,4 +81,22 @@
 
 .main-footer__logo path {
   fill: #666666;
+}
+
+.main-footer__center-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (min-width: $tablet-width) {
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: space-between;
+    width: $tablet-width;
+    margin: 0 auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: $desktop-width;
+  }
 }

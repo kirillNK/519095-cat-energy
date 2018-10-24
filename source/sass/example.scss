@@ -232,4 +232,8 @@
 .example__center-wrapper {
   max-width: 280px;
   margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    max-width: $tablet-width;
+  }
 }

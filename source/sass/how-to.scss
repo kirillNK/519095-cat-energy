@@ -161,4 +161,8 @@
 .how-to__center-wrapper {
   max-width: 604px;
   margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    max-width: $tablet-width;
+  }
 }
