@@ -20,7 +20,8 @@
     position: absolute;
     content: "";
     top: 0;
-    left: 0;
+    left: 50%;
+    margin-left: -160px;
     width: 320px;
     height: 306px;
     background: url("/img/index-background-mobile@1x.jpg") no-repeat;
@@ -63,6 +64,8 @@
       width: 720px;
       height: 696px;
       top: -114px;
+      // right: 0;
+      // margin-right: -360px;
       left: 720px;
     }
   }
@@ -73,6 +76,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 320px;
+  margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 28px;
@@ -80,12 +85,14 @@
   @media (min-width: $tablet-width) {
     position: relative;
     align-items: flex-start;
+    width: $tablet-width;
     padding-left: 30px;
     padding-top: 39px;
     padding-right: 30px;
   }
 
   @media (min-width: $desktop-width) {
+    width: $desktop-width;
     padding-left: 110px;
     padding-right: 110px;
   }
