@@ -2,6 +2,10 @@
   display: flex;
   flex-direction: column;
 
+  @media (min-width: $tablet-width) {
+    flex-direction: row;
+  }
+
   @media (min-width: $desktop-width) {
     flex-direction: row;
   }
@@ -42,5 +46,7 @@
 }
 
 .extra-tile__btn {
-  //
+  @media (min-width: $tablet-width) {
+    position: absolute;
+  }
 }
