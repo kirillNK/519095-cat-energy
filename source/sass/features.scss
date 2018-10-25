@@ -85,7 +85,8 @@
       width: 142px;
       height: 193px;
       left: 473px;
-      top: 79px;
+      top: 50%;
+      margin-top: -106px;
       background: url("/img/icon-cat-slim.svg") no-repeat;
     }
   }
@@ -93,9 +94,9 @@
   @media (min-width: $desktop-width) {
     &::before {
       left: 54px;
+      top: 142px;
       width: 100px;
       height: 100px;
-      margin-top: -141px;
     }
 
     &::after {
@@ -149,7 +150,8 @@
       width: 267px;
       height: 112px;
       left: 409px;
-      top: 121px;
+      top: 50%;
+      margin-top: -53px;
       background: url("/img/icon-cat-pro.svg") no-repeat;
     }
   }
@@ -157,9 +159,9 @@
   @media (min-width: $desktop-width) {
     &::before {
       left: 54px;
+      top: 142px;
       width: 100px;
       height: 100px;
-      margin-top: -141px;
     }
 
     &::after {
