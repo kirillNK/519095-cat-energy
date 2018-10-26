@@ -6,7 +6,7 @@
   background: #f0f1f2 url("/img/bg-map-mobile@1x.png") no-repeat;
   background-position: center;
 
-  @media (min-width: 767px) {
+  @media (min-width: $tablet-width) {
     height: 395px;
 
     // .map #ymaps1539523653709689035 {
@@ -15,7 +15,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    height: 400px;
+    height: 436px;
     margin-top: -37px;
   }
 }
