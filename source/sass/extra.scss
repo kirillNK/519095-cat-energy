@@ -121,6 +121,7 @@
     width: 708px;
     height: 200px;
     margin-bottom: 76px;
+    background: url("../img/gift-photo-tablet@1x.jpg") no-repeat;
   }
 
   @media (min-width: $desktop-width) {
@@ -148,6 +149,18 @@
     height: 60px;
     left: 113px;
     background: url("/img/icon-gift.svg") no-repeat;
+  }
+
+  @media (min-width: $tablet-width) {
+    position: absolute;
+    right: 109px;
+    top: 71px;
+    text-align: left;
+
+    &::before {
+      left: -333px;
+      top: -6px;
+    }
   }
 }
 
