@@ -105,6 +105,11 @@
   &:last-child {
     margin-top: 0;
   }
+
+  @media (min-width: $tablet-width) {
+    box-sizing: border-box;
+    border-bottom: 1px solid #cdcdcd;
+  }
 }
 
 .product-tile__table-row td:last-child {
