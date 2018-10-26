@@ -4,10 +4,7 @@
 
   @media (min-width: $tablet-width) {
     flex-direction: row;
-  }
-
-  @media (min-width: $desktop-width) {
-    flex-direction: row;
+    margin-top: 4px;
   }
 }
 
@@ -16,7 +13,7 @@
   justify-content: space-between;
   margin-bottom: 15px;
 
-  @media (min-width: $desktop-width) {
+  @media (min-width: $tablet-width) {
     margin-bottom: 0;
   }
 }
@@ -48,5 +45,9 @@
 .extra-tile__btn {
   @media (min-width: $tablet-width) {
     position: absolute;
+    left: 50%;
+    bottom: 27px;
+    width: 632px;
+    margin-left: -316px;
   }
 }
