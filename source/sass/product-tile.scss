@@ -27,6 +27,12 @@
   }
 }
 
+.product-tile__img-wrapper--big {
+  @media (min-width: $desktop-width) {
+    margin-top: -79px;
+  }
+}
+
 .product-tile__product-img {
   height: 140px;
   width: 135px;
@@ -35,6 +41,16 @@
     height: 170px;
     width: 316px;
     margin-bottom: 20px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 254px;
+  }
+}
+
+.product-tile__product-img--big {
+  @media (min-width: $desktop-width) {
+    height: 205px;
   }
 }
 
