@@ -1,8 +1,8 @@
 .selection {
   display: flex;
   flex-direction: column;
-  // align-items: center;
   padding-bottom: 32px;
+  padding-top: 15px;
 
   @media (min-width: $tablet-width) {
     align-items: flex-start;
@@ -11,8 +11,7 @@
 
 .selection__title {
   margin: 0;
-  margin-top: 30px;
-  margin-bottom: 32px;
+  margin-bottom: 26px;
   margin-left: 20px;
   font-weight: 400;
   font-size: 36px;
@@ -32,7 +31,7 @@
 
 .selection__subtitle {
   margin: 0;
-  margin-bottom: 30px;
+  margin-bottom: 13px;
   margin-left: 20px;
   font-weight: 400;
   font-size: 14px;
@@ -85,6 +84,10 @@
   }
 }
 
+.selection__fieldset--comment .selection__inner-title {
+  margin-top: 3px;
+}
+
 .selection__input-box-wrapper {
   @media (min-width: $tablet-width) {
     display: flex;
@@ -107,6 +110,16 @@
 
 .selection__fieldset-additional {
   padding: 0;
+}
+
+.selection__fieldset-additional .selection__inner-title {
+  margin-top: 4px;
+  margin-bottom: 26px;
+}
+
+.selection__fieldset-additional .input-box {
+  min-height: 43px;
+  margin-bottom: 0;
 }
 
 .selection__fieldset--border {
@@ -133,7 +146,10 @@
 }
 
 .selection__inner-title {
-  margin-left: 20px;
+  width: 181px;
+  text-align: left;
+  margin-left: 18px;
+  margin-bottom: 32px;
   font-weight: 400;
   font-size: 24px;
   line-height: 24px;
@@ -156,8 +172,8 @@
 }
 
 .selection__btn {
-  margin-bottom: 22px;
-  margin-top: 30px;
+  margin-bottom: 19px;
+  margin-top: 27px;
   margin-left: 20px;
   font-weight: 400;
   font-size: 16px;
@@ -198,9 +214,18 @@
   }
 }
 
-.selection__row-wrapper {
-  margin-bottom: 24px;
+.selection__fieldset--first-radio {
+  padding-top: 15px;
+  padding-bottom: 18px;
+}
 
+.selection__fieldset--first-radio .input-box {
+  min-height: 36px;
+  margin-bottom: 7px;
+  padding-left: 16px;
+}
+
+.selection__row-wrapper {
   @media (min-width: $tablet-width) {
     margin-bottom: 60px;
   }
@@ -240,6 +265,7 @@
 
 .selection__fieldset--contact {
   padding: 0;
+  padding-top: 4px;
 
   @media (min-width: $desktop-width) {
     padding: 0;
