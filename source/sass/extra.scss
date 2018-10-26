@@ -10,8 +10,9 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding-left: 110px;
-    padding-right: 110px;
+    padding-left: 72px;
+    padding-right: 72px;
+    padding-top: 14px;
     margin-bottom: 86px;
   }
 }
@@ -46,7 +47,8 @@
   }
 
   @media (min-width: $desktop-width) {
-    width: 895px;
+    box-sizing: border-box;
+    width: 930px;
     margin-bottom: 0;
   }
 }
@@ -77,6 +79,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 0;
+    padding-left: 40px;
+    padding-right: 282px;
   }
 }
 
@@ -127,7 +131,11 @@
   @media (min-width: $desktop-width) {
     width: 245px;
     height: 290px;
+    padding-left: 28px;
+    padding-right: 28px;
     margin-bottom: 0;
+    margin-right: 37px;
+    background: url("../img/gift-photo-desktop@1x.jpg") no-repeat;
   }
 }
 
@@ -160,6 +168,17 @@
     &::before {
       left: -333px;
       top: -6px;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    position: static;
+    text-align: center;
+
+    &::before {
+      top: 66px;
+      left: 50%;
+      margin-left: -26px;
     }
   }
 }

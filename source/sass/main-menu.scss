@@ -121,3 +121,9 @@
     color: #ffffff;
   }
 }
+
+.main-menu__link--catalog {
+  @media (min-width: $desktop-width) {
+    color: #000000;
+  }
+}

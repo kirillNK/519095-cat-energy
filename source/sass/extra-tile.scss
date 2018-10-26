@@ -16,6 +16,10 @@
   @media (min-width: $tablet-width) {
     margin-bottom: 0;
   }
+
+  @media (min-width: $desktop-width) {
+    width: 286px;
+  }
 }
 
 .extra-tile__quantity {
@@ -49,5 +53,12 @@
     bottom: 27px;
     width: 632px;
     margin-left: -316px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 245px;
+    left: 688px;
+    bottom: 16px;
+    margin: 0;
   }
 }

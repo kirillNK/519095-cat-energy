@@ -88,6 +88,10 @@
     font-size: 16px;
     line-height: 16px;
   }
+
+  @media (min-width: $desktop-width) {
+    width: 172px;
+  }
 }
 
 .product-tile__description {
