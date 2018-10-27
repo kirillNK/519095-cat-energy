@@ -13,7 +13,7 @@
   @media (min-width: $tablet-width) {
     padding-left: 0;
     padding-right: 0;
-    margin-bottom: 22px;
+    margin-bottom: 24px;
   }
 }
 
@@ -32,6 +32,7 @@
   @media (min-width: $tablet-width) {
     font-size: 20px;
     line-height: 20px;
+    margin-right: 13px;
   }
 }
 
@@ -54,6 +55,13 @@
     border-radius: 50%;
     left: -16px;
   }
+
+  @media (min-width: $tablet-width) {
+    &::before {
+      width: 40px;
+      height: 40px;
+    }
+  }
 }
 
 .input-box__input--radio:checked + .input-box__label--radio {
@@ -65,6 +73,14 @@
     left: -6px;
     border-radius: 50%;
     background-color: #68b738;
+  }
+
+  @media (min-width: $tablet-width) {
+    &::after {
+      left: -5px;
+      width: 20px;
+      height: 20px;
+    }
   }
 }
 
@@ -100,7 +116,6 @@
 }
 
 .input-box__input[type="email"] {
-  position: relative;
   padding-right: 34px;
 
   &::after {
@@ -116,7 +131,6 @@
 }
 
 .input-box__input[type="tel"] {
-  position: relative;
   padding-right: 34px;
 
   &::after {
@@ -151,6 +165,15 @@
     border: 1px solid #f2f2f2;
     left: -16px;
   }
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 34px;
+
+    &::before {
+      width: 37px;
+      height: 38px;
+    }
+  }
 }
 
 .input-box__input--checkbox:checked + .input-box__label--checkbox {
@@ -159,7 +182,15 @@
     position: absolute;
     width: 21px;
     height: 16px;
-    left: -6px;
-    background-color: #68b738;
+    left: -10px;
+    background: url("/img/icon-tick.svg") no-repeat;
+  }
+
+  @media (min-width: $tablet-width) {
+    &::after {
+      width: 21px;
+      height: 16px;
+      left: -6px;
+    }
   }
 }

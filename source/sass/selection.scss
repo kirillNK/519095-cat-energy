@@ -6,6 +6,12 @@
 
   @media (min-width: $tablet-width) {
     align-items: flex-start;
+    padding-top: 36px;
+    padding-bottom: 74px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 74px;
   }
 }
 
@@ -22,6 +28,7 @@
   @media (min-width: $tablet-width) {
     font-size: 60px;
     margin-left: 30px;
+    margin-bottom: 56px;
   }
 
   @media (min-width: $desktop-width) {
@@ -41,6 +48,8 @@
   text-transform: uppercase;
 
   @media (min-width: $tablet-width) {
+    width: 323px;
+    margin-bottom: 45px;
     font-size: 20px;
     line-height: 30px;
     margin-left: 68px;
@@ -48,6 +57,7 @@
 
   @media (min-width: $desktop-width) {
     width: 325px;
+    margin-bottom: 64px;
     margin-left: 110px;
   }
 }
@@ -63,7 +73,7 @@
   border: none;
 
   @media (min-width: $tablet-width) {
-    margin-left: 68px;
+    margin-left: 71px;
     margin-bottom: 68px;
     width: 630px;
 
@@ -79,13 +89,22 @@
 }
 
 .selection__fieldset--comment {
+  @media (min-width: $tablet-width) {
+    padding-top: 0;
+  }
+
   @media (min-width: $desktop-width) {
     padding: 0;
+    margin-bottom: 93px;
   }
 }
 
 .selection__fieldset--comment .selection__inner-title {
   margin-top: 3px;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 0;
+  }
 }
 
 .selection__input-box-wrapper {
@@ -103,8 +122,14 @@
       margin: 0;
       margin-bottom: 45px;
     }
-    width: 1126px;
+    width: 1234px;
     height: 42px;
+  }
+}
+
+.selection__input-box-wrapper .input-box {
+  @media (min-width: $desktop-width) {
+    width: 255px;
   }
 }
 
@@ -157,17 +182,23 @@
   color: #000000;
 
   @media (min-width: $tablet-width) {
+    width: 520px;
     margin: 0;
-    margin-bottom: 68px;
+    margin-bottom: 78px;
     font-size: 36px;
     line-height: 36px;
     margin-left: 0;
   }
 }
 
-.selection__inner--small-margin {
+.selection__fieldset-additional .selection__inner--small-margin {
   @media (min-width: $tablet-width) {
-    margin-bottom: 45px;
+    margin-bottom: 54px;
+    margin-top: -23px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 72px;
   }
 }
 
@@ -183,6 +214,9 @@
     margin: 0;
     margin-left: 70px;
     margin-right: 60px;
+    width: 283px;
+    padding-top: 13px;
+    padding-bottom: 13px;
     font-size: 20px;
   }
 
@@ -209,6 +243,7 @@
 
 .selection__bottom-wrapper {
   @media (min-width: $tablet-width) {
+    margin-top: -14px;
     display: flex;
     align-items: center;
   }
@@ -217,12 +252,22 @@
 .selection__fieldset--first-radio {
   padding-top: 15px;
   padding-bottom: 18px;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 24px;
+    padding-left: 9px;
+    padding-bottom: 23px;
+  }
 }
 
 .selection__fieldset--first-radio .input-box {
   min-height: 36px;
   margin-bottom: 7px;
   padding-left: 16px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 10px;
+  }
 }
 
 .selection__row-wrapper {
@@ -236,6 +281,7 @@
     width: 1220px;
     height: 198px;
     margin: 0 auto;
+    margin-bottom: 67px;
     align-items: center;
 
     .selection__fieldset {
@@ -246,6 +292,20 @@
         margin-right: 0;
       }
     }
+  }
+}
+
+.selection__row-wrapper .selection__fieldset {
+  @media (min-width: $tablet-width) {
+    margin-bottom: 54px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 0;
   }
 }
 
@@ -267,8 +327,13 @@
   padding: 0;
   padding-top: 4px;
 
+  @media (min-width: $tablet-width) {
+    padding-top: 15px;
+  }
+
   @media (min-width: $desktop-width) {
     padding: 0;
     width: 1220px;
+    margin-bottom: 69px;
   }
 }
